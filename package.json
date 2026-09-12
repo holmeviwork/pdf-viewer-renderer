@@ -1,0 +1,20 @@
+{
+  "name": "pdf-viewer-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/extract-form.js",
+    "update": "node scripts/extract-form.js",
+    "remove": "node scripts/remove-schema.js",
+    "serve": "node server.js",
+    "start": "npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}

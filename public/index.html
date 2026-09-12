@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PDF Form Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Replicated PDF form</h1>
+    <label id="picker-label" for="form-picker" hidden>
+      Form:
+      <select id="form-picker"></select>
+    </label>
+    <p id="status">Loading…</p>
+  </header>
+  <div id="layout">
+    <main id="pages"></main>
+    <aside id="field-info">
+      <h2 id="field-info-title">Field data</h2>
+      <dl id="field-info-content"></dl>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>

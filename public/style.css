@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 4rem;
+  background: #525659;
+  font-family: system-ui, sans-serif;
+  color: #eee;
+}
+
+header {
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+#status {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+#picker-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+#form-picker {
+  font: inherit;
+  padding: 0.15rem 0.4rem;
+}
+
+#layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  min-width: 0;
+}
+
+#field-info {
+  flex: 0 0 300px;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  background: #3a3d40;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+#field-info h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+}
+
+#field-info-content {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+#field-info-content dt {
+  color: #9cc4ff;
+  margin-top: 0.6rem;
+}
+
+#field-info-content dt:first-child {
+  margin-top: 0;
+}
+
+#field-info-content dd {
+  margin: 0.1rem 0 0;
+  word-break: break-word;
+}
+
+.page {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.page canvas {
+  display: block;
+}
+
+/* pdf.js text layer: invisible, selectable text positioned over the canvas
+   so users can select/copy text and the browser's native find (Cmd/Ctrl+F)
+   can locate it. Rules copied from pdf.js's web/pdf_viewer.css. */
+.textLayer {
+  position: absolute;
+  text-align: initial;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0.25;
+  line-height: 1;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  z-index: 2;
+}
+
+.textLayer :is(span, br) {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+
+.textLayer span.markedContent {
+  top: 0;
+  height: 0;
+}
+
+.textLayer ::-moz-selection {
+  background: blue;
+  background: AccentColor;
+}
+
+.textLayer ::selection {
+  background: blue;
+  background: AccentColor;
+}
+
+.textLayer br::-moz-selection {
+  background: transparent;
+}
+.textLayer br::selection {
+  background: transparent;
+}
+
+.textLayer .endOfContent {
+  display: block;
+  position: absolute;
+  inset: 100% 0 0;
+  z-index: -1;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.textLayer .endOfContent.active {
+  top: 0;
+}
+
+.field {
+  position: absolute;
+  z-index: 3;
+  border: 1px solid rgba(0, 90, 200, 0.6);
+  background: rgba(0, 120, 255, 0.08);
+  font: inherit;
+  font-size: 12px;
+  padding: 0 2px;
+}
+
+.field:focus {
+  outline: none;
+  border-color: rgba(0, 90, 200, 1);
+  background: rgba(0, 120, 255, 0.18);
+}
+
+input.field[type='checkbox'] {
+  padding: 0;
+}
+
+textarea.field {
+  resize: none;
+}
