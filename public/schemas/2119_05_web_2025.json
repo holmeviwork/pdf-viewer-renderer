@@ -1,7 +1,7 @@
 {
   "source": "assets/2119_05_web_2025.pdf",
   "file": "2119_05_web_2025.pdf",
-  "generatedAt": "2026-09-15T09:43:42.883Z",
+  "generatedAt": "2026-09-15T11:25:01.983Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -427,6 +427,18 @@
         "2"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "radAlternativTva",
+          "caption": "en bostadsrättsförening",
+          "exportValue": "1"
+        },
+        {
+          "name": "radAlternativTva",
+          "caption": "ett aktiebolag",
+          "exportValue": "2"
+        }
+      ],
       "boxes": [
         {
           "left": 416.55,
@@ -439,6 +451,20 @@
           "top": 235.88,
           "width": 11,
           "height": 11
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 416.55,
+          "lly": 615.84,
+          "urx": 427.55,
+          "ury": 626.84
+        },
+        {
+          "llx": 416.55,
+          "lly": 595.01,
+          "urx": 427.55,
+          "ury": 606.01
         }
       ]
     },
@@ -471,6 +497,18 @@
         "2"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "Ksr4102",
+          "caption": "gemensamma för flera delägare",
+          "exportValue": "1"
+        },
+        {
+          "name": "Ksr4102",
+          "caption": "individuella",
+          "exportValue": "2"
+        }
+      ],
       "boxes": [
         {
           "left": 42.16,
@@ -483,6 +521,20 @@
           "top": 285.3,
           "width": 11,
           "height": 11
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 42.16,
+          "lly": 545.59,
+          "urx": 53.16,
+          "ury": 556.59
+        },
+        {
+          "llx": 198.06,
+          "lly": 545.59,
+          "urx": 209.06,
+          "ury": 556.59
         }
       ]
     },
@@ -1304,6 +1356,23 @@
         "3"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "Ksr4103",
+          "caption": "varit bosatt under minst ett år närmast före försäljningsdatum\nenligt köpekontraktet",
+          "exportValue": "1"
+        },
+        {
+          "name": "Ksr4103",
+          "caption": "varit bosatt sammanlagt minst tre år av de senaste fem åren före försäljningsdatum enligt köpekontraktet",
+          "exportValue": "2"
+        },
+        {
+          "name": "Ksr4103",
+          "caption": null,
+          "exportValue": "3"
+        }
+      ],
       "boxes": [
         {
           "left": 41.95,
@@ -1322,6 +1391,26 @@
           "top": 156.62,
           "width": 11,
           "height": 11
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 41.95,
+          "lly": 701.2,
+          "urx": 52.95,
+          "ury": 712.2
+        },
+        {
+          "llx": 301.15,
+          "lly": 701.2,
+          "urx": 312.15,
+          "ury": 712.2
+        },
+        {
+          "llx": 41.95,
+          "lly": 674.28,
+          "urx": 52.95,
+          "ury": 685.28
         }
       ]
     },

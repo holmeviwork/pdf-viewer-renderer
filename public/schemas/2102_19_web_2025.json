@@ -1,7 +1,7 @@
 {
   "source": "assets/2102_19_web_2025.pdf",
   "file": "2102_19_web_2025.pdf",
-  "generatedAt": "2026-09-15T09:43:42.575Z",
+  "generatedAt": "2026-09-15T11:25:01.658Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -2111,6 +2111,23 @@
         "3"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "Ksr4103",
+          "caption": "Jag har ägt bostaden med samma ägarförhållanden som år 2024.",
+          "exportValue": "1"
+        },
+        {
+          "name": "Ksr4103",
+          "caption": "Ägarförhållandena har ändrats sedan år 2024. Uppskovsbeloppet överförs till en eller flera nya ägare i avsnitt I.",
+          "exportValue": "2"
+        },
+        {
+          "name": "Ksr4103",
+          "caption": "Ägarförhållandena har ändrats sedan år 2024. Hela eller delar av uppskovsbeloppet återförs till beskattning i avsnitt H eller på annan bilaga.",
+          "exportValue": "3"
+        }
+      ],
       "boxes": [
         {
           "left": 41.95,
@@ -2129,6 +2146,26 @@
           "top": 734.36,
           "width": 12,
           "height": 12
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 41.95,
+          "lly": 139.17,
+          "urx": 53.95,
+          "ury": 151.17
+        },
+        {
+          "llx": 302.4,
+          "lly": 139.17,
+          "urx": 314.4,
+          "ury": 151.17
+        },
+        {
+          "llx": 41.95,
+          "lly": 95.53,
+          "urx": 53.95,
+          "ury": 107.53
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "source": "assets/2106_34_web_2025.pdf",
   "file": "2106_34_web_2025.pdf",
-  "generatedAt": "2026-09-15T09:43:42.684Z",
+  "generatedAt": "2026-09-15T11:25:01.774Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -427,6 +427,18 @@
         "2"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "Ksr4103",
+          "caption": "hela inne- havstiden",
+          "exportValue": "1"
+        },
+        {
+          "name": "Ksr4104",
+          "caption": "del av inne- havstiden",
+          "exportValue": "2"
+        }
+      ],
       "boxes": [
         {
           "left": 213.65,
@@ -439,6 +451,20 @@
           "top": 283.94,
           "width": 11,
           "height": 11
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 213.65,
+          "lly": 546.95,
+          "urx": 224.65,
+          "ury": 557.95
+        },
+        {
+          "llx": 287.35,
+          "lly": 546.95,
+          "urx": 298.35,
+          "ury": 557.95
         }
       ]
     },
@@ -579,6 +605,18 @@
         "2"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "Ksr4102",
+          "caption": "gemensamma för flera delägare",
+          "exportValue": "1"
+        },
+        {
+          "name": "Ksr4102",
+          "caption": "individuella",
+          "exportValue": "2"
+        }
+      ],
       "boxes": [
         {
           "left": 42.15,
@@ -591,6 +629,20 @@
           "top": 358.97,
           "width": 11,
           "height": 11
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 42.15,
+          "lly": 471.93,
+          "urx": 53.15,
+          "ury": 482.93
+        },
+        {
+          "llx": 198.06,
+          "lly": 471.93,
+          "urx": 209.06,
+          "ury": 482.93
         }
       ]
     },
@@ -1408,6 +1460,23 @@
         "3"
       ],
       "selected": null,
+      "members": [
+        {
+          "name": "Ksr4103",
+          "caption": "varit bosatt under minst ett år närmast före försäljningsdatum\nenligt köpekontraktet",
+          "exportValue": "1"
+        },
+        {
+          "name": "Ksr4103",
+          "caption": "varit bosatt sammanlagt minst tre år av de senaste fem åren före försäljningsdatum enligt köpekontraktet",
+          "exportValue": "2"
+        },
+        {
+          "name": "Ksr4103",
+          "caption": null,
+          "exportValue": "3"
+        }
+      ],
       "boxes": [
         {
           "left": 41.95,
@@ -1426,6 +1495,26 @@
           "top": 175.13,
           "width": 11,
           "height": 11
+        }
+      ],
+      "rectPts": [
+        {
+          "llx": 41.95,
+          "lly": 682.69,
+          "urx": 52.95,
+          "ury": 693.69
+        },
+        {
+          "llx": 301.15,
+          "lly": 682.69,
+          "urx": 312.15,
+          "ury": 693.69
+        },
+        {
+          "llx": 41.95,
+          "lly": 655.76,
+          "urx": 52.95,
+          "ury": 666.76
         }
       ]
     },

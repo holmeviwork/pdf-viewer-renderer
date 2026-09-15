@@ -33,6 +33,7 @@ const {
   extractTemplateVariables,
   findHiddenPageBarcodes,
   extractSectionPrefixes,
+  extractExclGroupMembers,
 } = require('./lib/xfa-template');
 const { extractDocumentMetadata } = require('./lib/xmp-metadata');
 const { buildXlsFileReferences } = require('./lib/xls-filenames');
@@ -75,7 +76,7 @@ function screenReaderTextFor(widget) {
   }
 }
 
-function extractField(field, pageIndexByRef, xfaTypes) {
+function extractField(field, pageIndexByRef, xfaTypes, exclGroupMembers) {
   const type = field.constructor.name;
   const widget = field.acroField.getWidgets()[0];
   if (!widget) return null;
@@ -151,6 +152,12 @@ function extractField(field, pageIndexByRef, xfaTypes) {
       type: 'radio',
       options: field.getOptions(),
       selected: field.getSelected() ?? null,
+      // The AcroForm layer flattens each XFA <exclGroup> into this single
+      // radio field, and each option's own <field name="..."> is dropped
+      // down to just its export ("on") value - see extractExclGroupMembers.
+      // Recovered here (by full XFA SOM path, which is identical to this
+      // field's own name) so each option's real field name/caption survive.
+      members: exclGroupMembers.get(field.getName()) ?? null,
     };
   }
 
@@ -184,6 +191,7 @@ async function buildSchema(pdfPath) {
   const xfaTemplate = extractXfaTemplate(pdfDoc);
   const xfaDatasets = xfaTemplate ? extractXfaDatasets(pdfDoc) : null;
   const xfaTypes = xfaTemplate ? parseFieldTypes(xfaTemplate) : new Map();
+  const exclGroupMembers = xfaTemplate ? extractExclGroupMembers(xfaTemplate) : new Map();
   const templateVariables = xfaTemplate ? extractTemplateVariables(xfaTemplate) : null;
   const documentMetadata = extractDocumentMetadata(pdfDoc);
   const document =
@@ -283,7 +291,7 @@ async function buildSchema(pdfPath) {
   const fields = form
     .getFields()
     .map((field) => {
-      const meta = extractField(field, pageIndexByRef, xfaTypes);
+      const meta = extractField(field, pageIndexByRef, xfaTypes, exclGroupMembers);
       if (!meta) return null;
 
       const widgets = field.acroField.getWidgets();
@@ -291,8 +299,17 @@ async function buildSchema(pdfPath) {
       const boxes = widgets.map((w) => toCssBox(w.getRectangle(), pageHeight));
 
       // Fields normally have one widget (one on-page box). A handful of
-      // radio groups may have several (one per option) - keep them all.
-      return boxes.length === 1 ? { ...meta, box: boxes[0] } : { ...meta, boxes };
+      // radio groups may have several (one per option) - keep them all,
+      // including each widget's own PDF-space rect (meta.rectPt, from
+      // extractField, only ever reflects the group's first widget - not
+      // useful once the sidebar reports per-option data instead of
+      // group-wide data).
+      if (boxes.length === 1) return { ...meta, box: boxes[0] };
+      const rectPts = widgets.map((w) => {
+        const r = w.getRectangle();
+        return { llx: round(r.x), lly: round(r.y), urx: round(r.x + r.width), ury: round(r.y + r.height) };
+      });
+      return { ...meta, boxes, rectPts };
     })
     .filter(Boolean);
 

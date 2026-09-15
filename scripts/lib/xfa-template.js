@@ -55,22 +55,40 @@ const CONTAINER_ELEMENTS = new Set(['subform', 'exclGroup']);
 // is the fully-qualified, dot-separated, bracket-indexed path - the exact
 // same "SOM path" format AcroForm already uses for field.getName(), e.g.
 // "BlankettExternFormular[0].Sida1[0]....subPunkt6Rad6[0].numBelopp[0]".
+// An <exclGroup> (radio button group) gets a path the same way a subform
+// does, and that path exactly matches the AcroForm radio field it
+// flattens to - confirmed against several PDFs' actual field.getName().
 //
 // This walks the template's tag stream (a lightweight tokenizer, not a
 // full XML parser - sufficient because this XML is machine-generated and
 // well-formed) tracking <subform>/<exclGroup> nesting and counting
 // same-named siblings at each level, to compute that path per <field> and
-// capture its opening tag (attributes) and body.
+// capture its opening tag (attributes) and body. It also records, per
+// <exclGroup>, the paths of its direct <field> children (in document
+// order) - AcroForm flattens each exclGroup option's own XFA field into
+// just an unnamed widget/kid, dropping its name/caption entirely, so
+// that's otherwise nowhere else to recover it from (see
+// extractExclGroupMembers below).
+//
+// Returns { fields: Map<path, {tagAttrs, body}>, exclGroupChildren: Map<exclGroupPath, path[]> }.
 function buildFieldBodiesByPath(xml) {
-  const stack = [{ path: '', counts: new Map() }];
+  const stack = [{ path: '', type: null, counts: new Map() }];
   const fields = new Map(); // path -> { tagAttrs, body }
-  let openField = null; // { path, tagAttrs, bodyStart }
+  const exclGroupChildren = new Map(); // exclGroupPath -> [childFieldPath, ...]
+  let openField = null; // { path, tagAttrs, bodyStart, parentFrame }
 
   function childPath(frame, name) {
     const index = frame.counts.get(name) || 0;
     frame.counts.set(name, index + 1);
     const segment = `${name}[${index}]`;
     return frame.path ? `${frame.path}.${segment}` : segment;
+  }
+
+  function recordField(path, parentFrame) {
+    if (parentFrame.type === 'exclGroup') {
+      if (!exclGroupChildren.has(parentFrame.path)) exclGroupChildren.set(parentFrame.path, []);
+      exclGroupChildren.get(parentFrame.path).push(path);
+    }
   }
 
   let match;
@@ -86,6 +104,7 @@ function buildFieldBodiesByPath(xml) {
     if (isClosing) {
       if (elName === 'field' && openField) {
         fields.set(openField.path, { tagAttrs: openField.tagAttrs, body: xml.slice(openField.bodyStart, match.index) });
+        recordField(openField.path, openField.parentFrame);
         openField = null;
       } else if (CONTAINER_ELEMENTS.has(elName)) {
         stack.pop();
@@ -99,16 +118,17 @@ function buildFieldBodiesByPath(xml) {
       const path = childPath(frame, attr(tag, 'name') || '');
       if (isSelfClosing) {
         fields.set(path, { tagAttrs: tag, body: '' });
+        recordField(path, frame);
       } else {
-        openField = { path, tagAttrs: tag, bodyStart: match.index + tag.length };
+        openField = { path, tagAttrs: tag, bodyStart: match.index + tag.length, parentFrame: frame };
       }
     } else if (CONTAINER_ELEMENTS.has(elName)) {
       const path = childPath(frame, attr(tag, 'name') || '');
-      if (!isSelfClosing) stack.push({ path, counts: new Map() });
+      if (!isSelfClosing) stack.push({ path, type: elName, counts: new Map() });
     }
   }
 
-  return fields;
+  return { fields, exclGroupChildren };
 }
 
 // Returns Map<fullyQualifiedPath, {
@@ -130,7 +150,7 @@ function buildFieldBodiesByPath(xml) {
 // callers should look fields up by that, not by short name.
 function parseFieldTypes(xml) {
   const map = new Map();
-  const fieldsByPath = buildFieldBodiesByPath(xml);
+  const { fields: fieldsByPath } = buildFieldBodiesByPath(xml);
 
   for (const [path, { tagAttrs, body }] of fieldsByPath) {
     const uiMatch = body.match(/<ui[^>]*>\s*<(\w+)/);
@@ -268,7 +288,7 @@ function findDatTomValue(templateXml, datasetsXml) {
 // "INK2M-1-33-2025P4", or the bare field name as a fallback).
 function findHiddenPageBarcodes(xml, datasetsXml, utgava, resolvePageForPath) {
   const map = new Map();
-  const fieldsByPath = buildFieldBodiesByPath(xml);
+  const { fields: fieldsByPath } = buildFieldBodiesByPath(xml);
   const datTomValue = findDatTomValue(xml, datasetsXml);
 
   for (const [path, { body }] of fieldsByPath) {
@@ -311,7 +331,7 @@ function findHiddenPageBarcodes(xml, datasetsXml, utgava, resolvePageForPath) {
 // e.g. ["INK2", "INK2R", "INK2S"] for SKV 2002. Used to derive companion
 // .xls filenames (see xls-filenames.js) without hardcoding them per form.
 function extractSectionPrefixes(xml) {
-  const fieldsByPath = buildFieldBodiesByPath(xml);
+  const { fields: fieldsByPath } = buildFieldBodiesByPath(xml);
   const sections = [];
   const seen = new Set();
 
@@ -332,6 +352,51 @@ function extractSectionPrefixes(xml) {
   return sections;
 }
 
+// AcroForm flattens each XFA <exclGroup> (radio button group) into a
+// single AcroForm radio field, and each option's own <field> inside that
+// group becomes just an unnamed widget/kid, identified only by its export
+// ("on") value - the option's own field name, caption (visible label),
+// and the fact it even had a name at all is dropped at the AcroForm layer
+// and doesn't appear anywhere in the standard field tree. This walks the
+// exclGroup's direct <field> children (found via buildFieldBodiesByPath)
+// and pulls, per option:
+//   - name: the field's own short XFA name (e.g. "Ksr4103" - note this
+//     is sometimes identical across every option in the same group, in
+//     which case it genuinely doesn't disambiguate them; report it as-is
+//     rather than inventing a fake unique name)
+//   - caption: <caption><value><text> (visible label, e.g.
+//     "Jag har ägt bostaden med samma ägarförhållanden som år 2024.")
+//   - exportValue: <items>'s value - seen as either <items><text> or
+//     <items><integer> in the wild, so both are accepted
+//
+// Returns Map<exclGroupPath, Array<{ name, caption, exportValue }>> -
+// exclGroupPath is computed the same way as any field/subform path, and
+// matches the flattened AcroForm radio field's own field.getName().
+function extractExclGroupMembers(xml) {
+  const { fields: fieldsByPath, exclGroupChildren } = buildFieldBodiesByPath(xml);
+  const result = new Map();
+
+  for (const [exclGroupPath, childPaths] of exclGroupChildren) {
+    const members = childPaths.map((childPath) => {
+      const { body } = fieldsByPath.get(childPath) || { body: '' };
+
+      const captionBlock = body.match(/<caption[^>]*>([\s\S]*?)<\/caption/);
+      const captionMatch = captionBlock && captionBlock[1].match(/<value[^>]*>[\s\S]*?<text[^>]*>([^<]*)<\/text/);
+      const caption = captionMatch ? decodeXmlEntities(captionMatch[1].trim()) : null;
+
+      const itemsBlock = body.match(/<items[^>]*>([\s\S]*?)<\/items/);
+      const itemsMatch = itemsBlock && itemsBlock[1].match(/<(?:text|integer)[^>]*>([^<]*)<\/(?:text|integer)/);
+      const exportValue = itemsMatch ? itemsMatch[1].trim() : null;
+
+      return { name: childPath.split('.').pop().replace(/\[\d+\]$/, ''), caption, exportValue };
+    });
+
+    result.set(exclGroupPath, members);
+  }
+
+  return result;
+}
+
 module.exports = {
   extractXfaTemplate,
   extractXfaDatasets,
@@ -339,4 +404,5 @@ module.exports = {
   extractTemplateVariables,
   findHiddenPageBarcodes,
   extractSectionPrefixes,
+  extractExclGroupMembers,
 };

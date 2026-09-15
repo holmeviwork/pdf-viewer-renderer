@@ -177,12 +177,26 @@ function shortNameOf(fullName) {
 // Every piece of data extracted from the PDF for one field, as
 // label/value pairs, in display order. Anything null/undefined/empty is
 // left out so the panel only shows what's actually known.
-function describeField(field) {
-  const box = field.box || (field.boxes && field.boxes[0]);
+//
+// `optionIndex` is given for one on-page box of a radio group (each radio
+// button is its own widget, not the group as a whole) - in that case the
+// identity/value rows describe that specific button (its own recovered
+// XFA field name/caption from field.members, its own export value, and
+// whether *it* is the checked one) instead of the group-wide field.name/
+// options/selected, which would be identical no matter which button in
+// the group was actually focused.
+function describeField(field, optionIndex) {
+  const isOption = field.type === 'radio' && optionIndex != null;
+  const box = isOption ? field.boxes?.[optionIndex] : field.box || (field.boxes && field.boxes[0]);
+  const rectPt = isOption ? field.rectPts?.[optionIndex] : field.rectPt;
+  const member = isOption ? field.members?.[optionIndex] : null;
+  const optionValue = isOption ? field.options?.[optionIndex] : null;
+
   const pairs = [
     ['Description (screen reader text)', field.description],
     ['Ruta', field.ruta],
-    ['Field name', shortNameOf(field.name)],
+    ['Caption', member?.caption],
+    ['Field name', member?.name || shortNameOf(field.name)],
     ['Fully qualified name', field.name],
     ['Type', field.type],
     ['Data type', field.dataType],
@@ -198,15 +212,23 @@ function describeField(field) {
     ['Access', field.access],
     ['Page', Number.isInteger(field.page) ? field.page + 1 : null],
     ['Value', field.value],
-    ['Checked', field.type === 'checkbox' ? String(Boolean(field.checked)) : null],
-    ['Selected', field.selected ? [].concat(field.selected).join(', ') : null],
-    ['Options', field.options && field.options.length ? field.options.join(', ') : null],
+    ['Export value', isOption ? optionValue : null],
+    [
+      'Checked',
+      field.type === 'checkbox'
+        ? String(Boolean(field.checked))
+        : isOption
+          ? String(field.selected === optionValue)
+          : null,
+    ],
+    ['Selected', !isOption && field.selected ? [].concat(field.selected).join(', ') : null],
+    ['Options', !isOption && field.options && field.options.length ? field.options.join(', ') : null],
     ['Max length', field.maxLength],
     ['Multiline', field.type === 'text' ? String(Boolean(field.multiline)) : null],
     ['Position', box && `${box.left}, ${box.top} pt`],
     ['Size', box && `${box.width} × ${box.height} pt`],
     ['Design size', field.designWidth && field.designHeight && `${field.designWidth} × ${field.designHeight}`],
-    ['PDF rect', field.rectPt && `${field.rectPt.llx}, ${field.rectPt.lly}, ${field.rectPt.urx}, ${field.rectPt.ury}`],
+    ['PDF rect', rectPt && `${rectPt.llx}, ${rectPt.lly}, ${rectPt.urx}, ${rectPt.ury}`],
   ];
 
   return pairs;
@@ -226,9 +248,9 @@ function renderPairs(pairs) {
   }
 }
 
-function showFieldInfo(field) {
+function showFieldInfo(field, optionIndex) {
   fieldInfoTitle.textContent = 'Field data';
-  renderPairs(describeField(field));
+  renderPairs(describeField(field, optionIndex));
 }
 
 // Shown whenever no field has focus: general facts about the loaded PDF
@@ -264,9 +286,14 @@ function showGeneralInfo() {
 
 // Positions, styles, and wires up the focus->sidebar behavior for one
 // on-page box - shared by every field type so that logic only lives once.
-function positionAndWire(el, field, box, scaleX, scaleY) {
+// `optionIndex` identifies which box of a radio group this is (see
+// describeField), so the sidebar reports that specific button rather than
+// the group as a whole; other field types only ever have one box, so it's
+// omitted for them.
+function positionAndWire(el, field, box, scaleX, scaleY, optionIndex) {
   el.className = 'field';
-  el.title = field.name;
+  const member = optionIndex != null ? field.members?.[optionIndex] : null;
+  el.title = member ? `${member.name}: ${member.caption || member.exportValue}` : field.name;
   el.style.left = `${box.left * scaleX}px`;
   el.style.top = `${box.top * scaleY}px`;
   el.style.width = `${box.width * scaleX}px`;
@@ -276,7 +303,7 @@ function positionAndWire(el, field, box, scaleX, scaleY) {
     if (activeFieldEl) activeFieldEl.classList.remove('active');
     activeFieldEl = el;
     el.classList.add('active');
-    showFieldInfo(field);
+    showFieldInfo(field, optionIndex);
   });
 
   return el;
@@ -320,7 +347,7 @@ function createFieldElement(field, scaleX, scaleY) {
         }
       });
 
-      return positionAndWire(el, field, box, scaleX, scaleY);
+      return positionAndWire(el, field, box, scaleX, scaleY, i);
     });
   }
 
