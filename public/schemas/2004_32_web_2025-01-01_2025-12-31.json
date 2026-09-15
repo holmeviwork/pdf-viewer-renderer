@@ -1,7 +1,7 @@
 {
   "source": "assets/2004_32_web_2025-01-01_2025-12-31.pdf",
   "file": "2004_32_web_2025-01-01_2025-12-31.pdf",
-  "generatedAt": "2026-09-15T11:25:01.584Z",
+  "generatedAt": "2026-09-15T11:40:44.316Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -61,49 +61,56 @@
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "Sida1",
-      "hiddenPageBarcode": "INK4M-1-32-2025P4"
+      "hiddenPageBarcode": "INK4M-1-32-2025P4",
+      "xlsFile": "INK4_SKV2004-32-03-24-07"
     },
     {
       "index": 1,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": null,
-      "hiddenPageBarcode": null
+      "hiddenPageBarcode": null,
+      "xlsFile": null
     },
     {
       "index": 2,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "SIda2",
-      "hiddenPageBarcode": "INK4RM-1-32-2025P4"
+      "hiddenPageBarcode": "INK4RM-1-32-2025P4",
+      "xlsFile": "INK4R_SKV2004-32-03-24-07"
     },
     {
       "index": 3,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "Sida3",
-      "hiddenPageBarcode": "INK4RM-2-32-2025P4"
+      "hiddenPageBarcode": "INK4RM-2-32-2025P4",
+      "xlsFile": "INK4R_SKV2004-32-03-24-07"
     },
     {
       "index": 4,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "Sida4",
-      "hiddenPageBarcode": "INK4SM-1-32-2025P4"
+      "hiddenPageBarcode": "INK4SM-1-32-2025P4",
+      "xlsFile": "INK4S_SKV2004-32-03-24-07"
     },
     {
       "index": 5,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": null,
-      "hiddenPageBarcode": null
+      "hiddenPageBarcode": null,
+      "xlsFile": null
     },
     {
       "index": 6,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "Sida5",
-      "hiddenPageBarcode": "INK4DUM-1-32-2025P4"
+      "hiddenPageBarcode": "INK4DUM-1-32-2025P4",
+      "xlsFile": "INK4DU_SKV2004-32-03-24-07"
     }
   ],
   "fields": [

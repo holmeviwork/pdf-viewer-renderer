@@ -1,7 +1,7 @@
 {
   "source": "assets/2106_34_web_2025.pdf",
   "file": "2106_34_web_2025.pdf",
-  "generatedAt": "2026-09-15T11:25:01.774Z",
+  "generatedAt": "2026-09-15T11:40:44.505Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -49,28 +49,32 @@
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "Sida1",
-      "hiddenPageBarcode": null
+      "hiddenPageBarcode": null,
+      "xlsFile": null
     },
     {
       "index": 1,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": "Sida2",
-      "hiddenPageBarcode": "K6M-2-34-2025P4"
+      "hiddenPageBarcode": "K6M-2-34-2025P4",
+      "xlsFile": "K6_SKV2106-34-02-25-09"
     },
     {
       "index": 2,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": null,
-      "hiddenPageBarcode": null
+      "hiddenPageBarcode": null,
+      "xlsFile": null
     },
     {
       "index": 3,
       "width": 595.28,
       "height": 841.89,
       "xfaSubform": null,
-      "hiddenPageBarcode": null
+      "hiddenPageBarcode": null,
+      "xlsFile": null
     }
   ],
   "fields": [

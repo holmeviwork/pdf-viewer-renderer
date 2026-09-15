@@ -277,14 +277,28 @@ async function buildSchema(pdfPath) {
     }
   }
 
+  // A page's hidden barcode ("INK2RM-2-33-2025P4") starts with the same
+  // "titel" (minus its trailing "M") that identifies which companion .xls
+  // file it belongs to - see extractSectionPrefixes/buildXlsFileReferences.
+  // Pages with no barcode (e.g. a continuation page with no XFA field of
+  // its own to read one off) have no section to match, so no .xls file.
+  function xlsFileForPage(hiddenPageBarcode) {
+    if (!hiddenPageBarcode || !xlsFileReferences) return null;
+    const section = hiddenPageBarcode.split('-')[0].replace(/M$/, '');
+    const match = xlsFileReferences.files.find((f) => f.section === section);
+    return match ? match.filename.replace(/\.xls$/, '') : null;
+  }
+
   const pages = pdfPages.map((page, index) => {
     const rawSubform = pageIndexToSubformRaw.get(index) ?? null;
+    const hiddenPageBarcode = hiddenBarcodeByPage.get(index) ?? null;
     return {
       index,
       width: round(page.getWidth()),
       height: round(page.getHeight()),
       xfaSubform: rawSubform ? rawSubform.replace(/\[\d+\]$/, '') : null,
-      hiddenPageBarcode: hiddenBarcodeByPage.get(index) ?? null,
+      hiddenPageBarcode,
+      xlsFile: xlsFileForPage(hiddenPageBarcode),
     };
   });
 
