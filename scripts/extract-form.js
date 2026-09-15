@@ -24,10 +24,18 @@
 
 const fs = require('fs');
 const path = require('path');
-const { PDFDocument } = require('pdf-lib');
+const { PDFDocument, PDFName } = require('pdf-lib');
 const { ROOT, ASSETS_DIR, SCHEMAS_DIR, schemaPathFor, ask, writeManifest } = require('./lib/schema-store');
-const { extractXfaTemplate, parseFieldTypes } = require('./lib/xfa-template');
+const {
+  extractXfaTemplate,
+  extractXfaDatasets,
+  parseFieldTypes,
+  extractTemplateVariables,
+  findHiddenPageBarcodes,
+  extractSectionPrefixes,
+} = require('./lib/xfa-template');
 const { extractDocumentMetadata } = require('./lib/xmp-metadata');
+const { buildXlsFileReferences } = require('./lib/xls-filenames');
 
 function round(n) {
   return Math.round(n * 100) / 100;
@@ -51,6 +59,20 @@ function rutaFromDescription(description) {
   if (!description) return null;
   const match = description.match(/^([\p{L}]*\d+(?:[.,]\d+)*)\s/u);
   return match ? match[1] : null;
+}
+
+// The widget's own /TU entry - the PDF spec's "alternate description" for
+// accessibility, i.e. the text a screen reader announces for this field.
+// Independent of XFA (works on any AcroForm PDF); often mirrors the XFA
+// tooltip, but sometimes it's the only description available, and
+// sometimes it's just a placeholder falling back to the field's own name.
+function screenReaderTextFor(widget) {
+  try {
+    const tu = widget.dict.get(PDFName.of('TU'));
+    return tu ? tu.decodeText() : null;
+  } catch {
+    return null;
+  }
 }
 
 function extractField(field, pageIndexByRef, xfaTypes) {
@@ -81,6 +103,7 @@ function extractField(field, pageIndexByRef, xfaTypes) {
     rotate: xfaInfo?.rotate ?? null,
     access: xfaInfo?.access ?? null,
     font: widget.getDefaultAppearance() ?? null,
+    screenReaderText: screenReaderTextFor(widget),
     rectPt: {
       llx: round(rect.x),
       lly: round(rect.y),
@@ -159,19 +182,104 @@ async function buildSchema(pdfPath) {
   const pdfPages = pdfDoc.getPages();
 
   const xfaTemplate = extractXfaTemplate(pdfDoc);
+  const xfaDatasets = xfaTemplate ? extractXfaDatasets(pdfDoc) : null;
   const xfaTypes = xfaTemplate ? parseFieldTypes(xfaTemplate) : new Map();
+  const templateVariables = xfaTemplate ? extractTemplateVariables(xfaTemplate) : null;
   const documentMetadata = extractDocumentMetadata(pdfDoc);
+  const document =
+    documentMetadata || templateVariables ? { ...documentMetadata, ...templateVariables } : null;
+
+  // Companion .xls reference filenames, derived from the same template
+  // variables plus each section's barcode "titel" prefix (see
+  // extractSectionPrefixes) - only when every required piece is present,
+  // so a form missing one of these facts just omits this section rather
+  // than guessing.
+  const sectionPrefixes = xfaTemplate ? extractSectionPrefixes(xfaTemplate) : [];
+  const xlsFileReferences =
+    templateVariables?.myndighet &&
+    templateVariables?.formularid &&
+    templateVariables?.utgava &&
+    templateVariables?.formularversion &&
+    templateVariables?.konstruktionsdatum &&
+    sectionPrefixes.length > 0
+      ? buildXlsFileReferences(
+          templateVariables.myndighet,
+          templateVariables.formularid,
+          templateVariables.utgava,
+          templateVariables.formularversion,
+          templateVariables.konstruktionsdatum,
+          sectionPrefixes,
+        )
+      : null;
 
   const pageIndexByRef = new Map();
   pdfPages.forEach((page, index) => pageIndexByRef.set(page.ref.tag, index));
 
-  const pages = pdfPages.map((page, index) => ({
-    index,
-    width: round(page.getWidth()),
-    height: round(page.getHeight()),
-  }));
-
   const form = pdfDoc.getForm();
+
+  // Each PDF page maps 1:1 to a top-level XFA page subform (e.g. "Sida1")
+  // - every AcroForm field's fully-qualified name carries that subform as
+  // its second dot-segment (after the root form), so any one field on a
+  // page reveals that page's subform. Note some forms flow a single page
+  // subform across multiple physical PDF pages (its content just spills
+  // onto a second page) - in that case both pages correctly report the
+  // same xfaSubform, which is an accurate reflection of the source, not a
+  // bug.
+  //
+  // The hidden per-page barcode has no AcroForm widget/page of its own
+  // (see findHiddenPageBarcodes), so its page can't be read off directly.
+  // Instead, walk up its SOM path's ancestor containers (deepest first)
+  // until one matches a container that a *real* field also lives in -
+  // that real field's already-known page is then the barcode's page too.
+  const pageIndexToSubformRaw = new Map();
+  const containerToPage = new Map();
+  for (const field of form.getFields()) {
+    const widget = field.acroField.getWidgets()[0];
+    if (!widget) continue;
+    const pageRef = widget.P();
+    const pageIdx = pageRef ? pageIndexByRef.get(pageRef.tag) : undefined;
+    if (pageIdx === undefined) continue;
+
+    const segments = field.getName().split('.');
+    if (segments.length > 1 && !pageIndexToSubformRaw.has(pageIdx)) {
+      pageIndexToSubformRaw.set(pageIdx, segments[1]);
+    }
+    for (let i = segments.length - 1; i >= 1; i--) {
+      containerToPage.set(segments.slice(0, i).join('.'), pageIdx);
+    }
+  }
+
+  function pageForPath(fullPath) {
+    const segments = fullPath.split('.');
+    for (let i = segments.length - 1; i >= 1; i--) {
+      const prefix = segments.slice(0, i).join('.');
+      if (containerToPage.has(prefix)) return containerToPage.get(prefix);
+    }
+    return null;
+  }
+
+  const hiddenBarcodeByPage = new Map();
+  if (xfaTemplate) {
+    const barcodes = findHiddenPageBarcodes(xfaTemplate, xfaDatasets, templateVariables?.utgava, pageForPath);
+    for (const [barcodePath, value] of barcodes) {
+      const pageIdx = pageForPath(barcodePath);
+      if (pageIdx !== null && !hiddenBarcodeByPage.has(pageIdx)) {
+        hiddenBarcodeByPage.set(pageIdx, value);
+      }
+    }
+  }
+
+  const pages = pdfPages.map((page, index) => {
+    const rawSubform = pageIndexToSubformRaw.get(index) ?? null;
+    return {
+      index,
+      width: round(page.getWidth()),
+      height: round(page.getHeight()),
+      xfaSubform: rawSubform ? rawSubform.replace(/\[\d+\]$/, '') : null,
+      hiddenPageBarcode: hiddenBarcodeByPage.get(index) ?? null,
+    };
+  });
+
   const fields = form
     .getFields()
     .map((field) => {
@@ -192,7 +300,8 @@ async function buildSchema(pdfPath) {
     source: path.relative(ROOT, pdfPath),
     file: path.basename(pdfPath),
     generatedAt: new Date().toISOString(),
-    document: documentMetadata,
+    document,
+    xlsFileReferences,
     pages,
     fields,
   };

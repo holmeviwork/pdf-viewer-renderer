@@ -1,7 +1,7 @@
 {
   "source": "assets/2164_11_web_2025-01-01_2025-12-31.pdf",
   "file": "2164_11_web_2025-01-01_2025-12-31.pdf",
-  "generatedAt": "2026-09-11T19:37:26.342Z",
+  "generatedAt": "2026-09-15T09:43:42.989Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,18 +15,48 @@
     "issued": null,
     "creator": "Skatteverket",
     "title": "Inkomst av näringsverksamhet  Enskilda näringsidkare",
-    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])"
+    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])",
+    "rubrik1": "Inkomst av näringsverksamhet",
+    "rubrik2": "Enskilda näringsidkare",
+    "myndighet": "SKV",
+    "formularid": "2164",
+    "utgava": "11",
+    "formularversion": "01",
+    "konstruktionsdatum": "2025-05-13"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2164",
+      "utgava": "11",
+      "formularversion": "01",
+      "konstruktionsdatum": "2025-05-13",
+      "year_yy": "25",
+      "month_mm": "05"
+    },
+    "base_string": "SKV2164-11-01-25-05",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "NEA",
+        "filename": "NEA_SKV2164-11-01-25-05.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "NEAM-1-11-2025P4"
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "NEAM-2-11-2025P4"
     }
   ],
   "fields": [
@@ -46,6 +76,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt7014",
       "rectPt": {
         "llx": 301.35,
         "lly": 711.94,
@@ -81,6 +112,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt7014",
       "rectPt": {
         "llx": 430.95,
         "lly": 711.94,
@@ -116,6 +148,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtSkattskyldig-namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 675.29,
@@ -151,6 +184,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtPersOrgNr",
       "rectPt": {
         "llx": 430.95,
         "lly": 675.29,
@@ -186,6 +220,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtSkattskyldig-namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 639.29,
@@ -221,6 +256,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Ksr4103",
       "rectPt": {
         "llx": 241.48,
         "lly": 604.7,
@@ -252,6 +288,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtPersredNr",
       "rectPt": {
         "llx": 430.95,
         "lly": 603.29,
@@ -287,6 +324,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 222.15,
         "lly": 525.28,
@@ -322,6 +360,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 222.15,
         "lly": 501.28,
@@ -357,6 +396,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 222.15,
         "lly": 477.28,
@@ -392,6 +432,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 222.15,
         "lly": 453.28,
@@ -427,6 +468,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4114",
       "rectPt": {
         "llx": 222.15,
         "lly": 429.28,
@@ -462,6 +504,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 222.15,
         "lly": 369.27,
@@ -497,6 +540,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 222.15,
         "lly": 345.27,
@@ -532,6 +576,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 222.15,
         "lly": 321.27,
@@ -567,6 +612,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 222.15,
         "lly": 297.26,
@@ -602,6 +648,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 481.35,
         "lly": 525.28,
@@ -637,6 +684,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 481.35,
         "lly": 477.28,
@@ -672,6 +720,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 481.35,
         "lly": 429.27,
@@ -707,6 +756,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 481.35,
         "lly": 369.27,
@@ -742,6 +792,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 481.35,
         "lly": 345.27,
@@ -777,6 +828,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 481.35,
         "lly": 321.27,
@@ -812,6 +864,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 481.35,
         "lly": 297.26,
@@ -847,6 +900,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 222.15,
         "lly": 237.26,
@@ -882,6 +936,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 222.15,
         "lly": 213.26,
@@ -917,6 +972,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 222.15,
         "lly": 189.26,
@@ -952,6 +1008,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 222.15,
         "lly": 165.25,
@@ -987,6 +1044,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 222.15,
         "lly": 117.25,
@@ -1022,6 +1080,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 222.15,
         "lly": 93.25,
@@ -1057,6 +1116,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 222.15,
         "lly": 69.25,
@@ -1092,6 +1152,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 222.15,
         "lly": 45.24,
@@ -1127,6 +1188,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 481.35,
         "lly": 237.26,
@@ -1162,6 +1224,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 481.35,
         "lly": 201.25,
@@ -1197,6 +1260,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 481.35,
         "lly": 117.25,
@@ -1232,6 +1296,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtPersOrgNr",
       "rectPt": {
         "llx": 430.95,
         "lly": 789.3,
@@ -1267,6 +1332,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4110",
       "rectPt": {
         "llx": 243.75,
         "lly": 741.3,
@@ -1302,6 +1368,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 243.75,
         "lly": 717.3,
@@ -1337,6 +1404,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 243.75,
         "lly": 693.3,
@@ -1372,6 +1440,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 243.75,
         "lly": 669.29,
@@ -1407,6 +1476,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 243.75,
         "lly": 645.29,
@@ -1442,6 +1512,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 243.75,
         "lly": 621.29,
@@ -1477,6 +1548,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 243.75,
         "lly": 597.29,
@@ -1512,6 +1584,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 243.75,
         "lly": 573.28,
@@ -1547,6 +1620,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 243.75,
         "lly": 525.28,
@@ -1582,6 +1656,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4111",
       "rectPt": {
         "llx": 243.75,
         "lly": 501.28,
@@ -1617,6 +1692,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 243.75,
         "lly": 477.28,
@@ -1652,6 +1728,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4113",
       "rectPt": {
         "llx": 243.75,
         "lly": 453.28,
@@ -1687,6 +1764,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt4112",
       "rectPt": {
         "llx": 243.75,
         "lly": 429.27,

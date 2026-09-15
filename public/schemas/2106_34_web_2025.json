@@ -1,7 +1,7 @@
 {
   "source": "assets/2106_34_web_2025.pdf",
   "file": "2106_34_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:26.057Z",
+  "generatedAt": "2026-09-15T09:43:42.684Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,28 +15,62 @@
     "issued": "2025-09-15",
     "creator": "Skatteverket",
     "title": "Försäljning bostadsrätt K6",
-    "templateVersionRef": "34_02 (/template/subform[1])"
+    "templateVersionRef": "34_02 (/template/subform[1])",
+    "rubrik1": "Försäljning",
+    "rubrik2": "Bostadsrätt",
+    "myndighet": "SKV",
+    "formularid": "2106",
+    "utgava": "34",
+    "formularversion": "02",
+    "konstruktionsdatum": "2025-09-15"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2106",
+      "utgava": "34",
+      "formularversion": "02",
+      "konstruktionsdatum": "2025-09-15",
+      "year_yy": "25",
+      "month_mm": "09"
+    },
+    "base_string": "SKV2106-34-02-25-09",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K6",
+        "filename": "K6_SKV2106-34-02-25-09.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": null
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida2",
+      "hiddenPageBarcode": "K6M-2-34-2025P4"
     },
     {
       "index": 2,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     },
     {
       "index": 3,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     }
   ],
   "fields": [
@@ -56,6 +90,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv datum när blanketten fylls i. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 752.59,
@@ -91,6 +126,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Om du har flera K6 numrera dem då i nummerordning exempelvis 1 för den första 2 för den andra och så vidare",
       "rectPt": {
         "llx": 430.95,
         "lly": 716.12,
@@ -126,6 +162,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Säljarens namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 668.04,
@@ -161,6 +198,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv säljarens personnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror.",
       "rectPt": {
         "llx": 430.96,
         "lly": 668.04,
@@ -196,6 +234,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens namn",
       "rectPt": {
         "llx": 42.15,
         "lly": 617.55,
@@ -231,6 +270,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens organisationsnummer",
       "rectPt": {
         "llx": 42.15,
         "lly": 593.54,
@@ -266,6 +306,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lägenhetsbeteckning hos bostadsrättsföreningen",
       "rectPt": {
         "llx": 301.35,
         "lly": 593.54,
@@ -301,6 +342,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum enligt köpekontraktet. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 42.15,
         "lly": 569.54,
@@ -336,6 +378,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Inköpsdatum enligt köpekontraktet. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 301.35,
         "lly": 569.54,
@@ -371,6 +414,7 @@
       "rotate": null,
       "access": null,
       "font": null,
+      "screenReaderText": null,
       "rectPt": {
         "llx": 213.65,
         "lly": 546.95,
@@ -414,6 +458,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrätten har används under tiden från och med datum. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 361.05,
         "lly": 545.54,
@@ -449,6 +494,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrätten har används under tiden till och med, datum. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 460.69,
         "lly": 545.54,
@@ -484,6 +530,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Här angers andel i procent av den totala lägenhetsytan som har använts för eget eller närståendes permanent eler fritidsboende",
       "rectPt": {
         "llx": 473.3,
         "lly": 521.53,
@@ -519,6 +566,7 @@
       "rotate": null,
       "access": null,
       "font": null,
+      "screenReaderText": null,
       "rectPt": {
         "llx": 42.15,
         "lly": 471.93,
@@ -549,7 +597,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB[0].subRad1[0].subAndelIProcent[0].Txt4110[0]",
       "page": 0,
-      "description": "Här anges den andel av bostadsrätten&#xD;som du har sålt, i procent",
+      "description": "Här anges den andel av bostadsrätten\rsom du har sålt, i procent",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -562,6 +610,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Här anges den andel av bostadsrätten\rsom du har sålt, i procent",
       "rectPt": {
         "llx": 473.02,
         "lly": 470.51,
@@ -584,7 +633,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB[0].subRad2[0].Ksr4103[0]",
       "page": 0,
-      "description": "Här kryssar du om 150 % av bostadsrättens andel av bostadsrättsföreningens&#xD;behållna förmögenhet den 1 januari 1974 används som inköpspris",
+      "description": "Här kryssar du om 150 % av bostadsrättens andel av bostadsrättsföreningens\rbehållna förmögenhet den 1 januari 1974 används som inköpspris",
       "ruta": null,
       "picture": null,
       "valueType": "integer",
@@ -597,6 +646,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Här kryssar du om 150 % av bostadsrättens andel av bostadsrättsföreningens\rbehållna förmögenhet den 1 januari 1974 används som inköpspris",
       "rectPt": {
         "llx": 42.15,
         "lly": 447.92,
@@ -628,6 +678,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange försäljningspris enligt  köpekontrakt",
       "rectPt": {
         "llx": 315.75,
         "lly": 422.13,
@@ -663,6 +714,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange försäljningsutgifter, mäklararvode med mera. ",
       "rectPt": {
         "llx": 315.75,
         "lly": 398.12,
@@ -698,6 +750,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inköpspris med mera.",
       "rectPt": {
         "llx": 315.75,
         "lly": 374.12,
@@ -733,6 +786,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förbättringsutgifter grundförbättringar till exempel nybyggnad, tillbyggnad eller ombyggnad",
       "rectPt": {
         "llx": 315.72,
         "lly": 350.12,
@@ -768,6 +822,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förbättringsutgifter, förbättrande reparationer och underhåll ",
       "rectPt": {
         "llx": 315.72,
         "lly": 326.11,
@@ -803,6 +858,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange eventuellt kapitaltillskott",
       "rectPt": {
         "llx": 315.72,
         "lly": 302.11,
@@ -838,6 +894,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange Bostadsrättens andel av inre reparationsfond vid försäljningen",
       "rectPt": {
         "llx": 315.75,
         "lly": 278.1,
@@ -873,6 +930,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange Bostadsrättens andel av inre reparationsfond vid Köpet.",
       "rectPt": {
         "llx": 315.72,
         "lly": 254.1,
@@ -908,6 +966,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange vinst eller förlust",
       "rectPt": {
         "llx": 315.75,
         "lly": 230.1,
@@ -943,6 +1002,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange beloppet från p.9 multiplicerat med den andel av bostadsrätten som du har sålt om beloppen vid p.1-8 är gemensamma för flera delägare.",
       "rectPt": {
         "llx": 315.75,
         "lly": 206.09,
@@ -978,6 +1038,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange eventuell återföring av uppskovsbelopp",
       "rectPt": {
         "llx": 315.75,
         "lly": 182.09,
@@ -1013,6 +1074,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange vinsten",
       "rectPt": {
         "llx": 315.75,
         "lly": 158.08,
@@ -1048,6 +1110,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förlusten",
       "rectPt": {
         "llx": 315.75,
         "lly": 134.08,
@@ -1070,7 +1133,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB[0].SubVH[0].subVanster[0].subRad14[0].SummaAvdragPrelUppskov[0]",
       "page": 0,
-      "description": "Ange avdrag för preliminärt uppskovsbelopp&#xD;",
+      "description": "Ange avdrag för preliminärt uppskovsbelopp\r",
       "ruta": null,
       "picture": "num{z,zzz,zzz,zz9}",
       "valueType": null,
@@ -1083,6 +1146,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange avdrag för preliminärt uppskovsbelopp\r",
       "rectPt": {
         "llx": 315.75,
         "lly": 110.08,
@@ -1105,7 +1169,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB[0].SubVH[0].subVanster[0].subRad15[0].SummaAvdragSlutUppskov[0]",
       "page": 0,
-      "description": "Ange avdrag för slutligt uppskovsbelopp.&#xD;&#xD;",
+      "description": "Ange avdrag för slutligt uppskovsbelopp.\r\r",
       "ruta": null,
       "picture": "num{z,zzz,zzz,zz9}",
       "valueType": null,
@@ -1118,6 +1182,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange avdrag för slutligt uppskovsbelopp.\r\r",
       "rectPt": {
         "llx": 315.75,
         "lly": 86.08,
@@ -1140,7 +1205,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB[0].SubVH[0].subVanster[0].subRad16[0].SummaAterstaendeVinstEftAvdragUppskov[0]",
       "page": 0,
-      "description": "Ange återstående vinst efter avdrag för uppskovsbelopp.&#xD;Punkt 12 minus punkt 14 eller 15",
+      "description": "Ange återstående vinst efter avdrag för uppskovsbelopp.\rPunkt 12 minus punkt 14 eller 15",
       "ruta": null,
       "picture": "num{z,zzz,zzz,zz9}",
       "valueType": null,
@@ -1153,6 +1218,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange återstående vinst efter avdrag för uppskovsbelopp.\rPunkt 12 minus punkt 14 eller 15",
       "rectPt": {
         "llx": 315.75,
         "lly": 62.07,
@@ -1188,6 +1254,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": null,
       "rectPt": {
         "llx": 541.13,
         "lly": 84.53,
@@ -1219,6 +1286,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv säljarens personnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror.",
       "rectPt": {
         "llx": 429.61,
         "lly": 790.97,
@@ -1254,6 +1322,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Jag har varit bosatt i bostadsrätten från och med datum. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 365.95,
         "lly": 719.54,
@@ -1289,6 +1358,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Jag har varit bosatt i bostadsrätten till och med datum. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 459.54,
         "lly": 719.54,
@@ -1324,6 +1394,7 @@
       "rotate": null,
       "access": null,
       "font": null,
+      "screenReaderText": null,
       "rectPt": {
         "llx": 41.95,
         "lly": 682.69,
@@ -1374,6 +1445,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Fastigheten är såld genom tvångsförsäljning.",
       "rectPt": {
         "llx": 41.95,
         "lly": 628.83,
@@ -1405,6 +1477,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange din ägarandel i procent.",
       "rectPt": {
         "llx": 367.44,
         "lly": 577.21,
@@ -1440,6 +1513,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Multiplicera den andel av hela bostaden som du ägde innan försäljningen med med 3 miljoner kronor, det ger din andel av  takbeloppet",
       "rectPt": {
         "llx": 444.48,
         "lly": 577.89,
@@ -1475,6 +1549,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Här anger du fastighetsbeteckningen om din nya bostad är ett småhus eller ägarlägenhet eller en motsvarighet utomlands inom EES.",
       "rectPt": {
         "llx": 41.95,
         "lly": 527.61,
@@ -1510,6 +1585,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din nya bostads inköpsdatum enligt köpekontrakt. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 301.15,
         "lly": 527.61,
@@ -1545,6 +1621,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange datum för bosättning i den nya bostaden. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.75,
         "lly": 527.61,
@@ -1580,6 +1657,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange din del av inköpspriset, lagfartskostnader med mera på den nya bostaden",
       "rectPt": {
         "llx": 315.55,
         "lly": 500.68,
@@ -1615,6 +1693,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din ägarandel i procent",
       "rectPt": {
         "llx": 430.75,
         "lly": 500.68,
@@ -1650,6 +1729,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange din del av utgifter för eventuellt nybyggnad , tillbyggnad eller ombyggnad",
       "rectPt": {
         "llx": 315.55,
         "lly": 473.75,
@@ -1685,6 +1765,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange ditt totala inköpspris",
       "rectPt": {
         "llx": 315.55,
         "lly": 446.82,
@@ -1720,6 +1801,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens eller den utländska motsvarighetens namn",
       "rectPt": {
         "llx": 41.95,
         "lly": 393.02,
@@ -1755,6 +1837,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Svenskt organisationsnummer",
       "rectPt": {
         "llx": 430.58,
         "lly": 393.02,
@@ -1790,6 +1873,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Här anger du lägenhetsbeteckning hos bostadsrättsföreningen, om din nya bostad är en bostadsrätt eller en motsvarighet utomlands inom EES.",
       "rectPt": {
         "llx": 41.95,
         "lly": 366.09,
@@ -1825,6 +1909,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din nya bostads inköpsdatum enligt köpekontrakt. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 301.15,
         "lly": 366.09,
@@ -1860,6 +1945,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange datum för bosättning i den nya bostaden. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.75,
         "lly": 366.09,
@@ -1895,6 +1981,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange din del av inköpspriset minus eventuell inre reparationsfond för den nya bostaden",
       "rectPt": {
         "llx": 315.55,
         "lly": 339.16,
@@ -1930,6 +2017,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din ägarandel i procent",
       "rectPt": {
         "llx": 430.75,
         "lly": 339.16,
@@ -1965,6 +2053,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vad boendeformen kallas i landet där bostaden finns",
       "rectPt": {
         "llx": 41.95,
         "lly": 285.36,
@@ -1987,7 +2076,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].SubG[0].SubBlockG[0].SubGLandskod[0].TxtEESland[0]",
       "page": 1,
-      "description": "Fyll i landskoden med två bokstäver på aktuellt EES-land&#xD;Belgien BE&#xD;Bulgarien BG&#xD;Cypern CY&#xD;Danmark DK&#xD;Estland EE&#xD;Finland FI&#xD;Frankrike FR&#xD;Grekland GR&#xD;Irland IE&#xD;Island IS&#xD;Italien IT&#xD;Kroatien HR&#xD;Lettland LV&#xD;Liechtenstein LI&#xD;Litauen LT&#xD;Luxemburg LU&#xD;Malta MT&#xD;Nederländerna NL&#xD;Norge NO&#xD;Polen PL&#xD;Portugal PT&#xD;Rumänien RO&#xD;Slovakien SK&#xD;Slovenien SI&#xD;Spanien ES&#xD;Tjeckien CZ&#xD;Tyskland DE&#xD;Ungern HU&#xD;Österrike AT",
+      "description": "Fyll i landskoden med två bokstäver på aktuellt EES-land\rBelgien BE\rBulgarien BG\rCypern CY\rDanmark DK\rEstland EE\rFinland FI\rFrankrike FR\rGrekland GR\rIrland IE\rIsland IS\rItalien IT\rKroatien HR\rLettland LV\rLiechtenstein LI\rLitauen LT\rLuxemburg LU\rMalta MT\rNederländerna NL\rNorge NO\rPolen PL\rPortugal PT\rRumänien RO\rSlovakien SK\rSlovenien SI\rSpanien ES\rTjeckien CZ\rTyskland DE\rUngern HU\rÖsterrike AT",
       "ruta": null,
       "picture": null,
       "valueType": "text",
@@ -2000,6 +2089,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Fyll i landskoden med två bokstäver på aktuellt EES-land\rBelgien BE\rBulgarien BG\rCypern CY\rDanmark DK\rEstland EE\rFinland FI\rFrankrike FR\rGrekland GR\rIrland IE\rIsland IS\rItalien IT\rKroatien HR\rLettland LV\rLiechtenstein LI\rLitauen LT\rLuxemburg LU\rMalta MT\rNederländerna NL\rNorge NO\rPolen PL\rPortugal PT\rRumänien RO\rSlovakien SK\rSlovenien SI\rSpanien ES\rTjeckien CZ\rTyskland DE\rUngern HU\rÖsterrike AT",
       "rectPt": {
         "llx": 430.58,
         "lly": 285.36,
@@ -2062,6 +2152,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadens adress",
       "rectPt": {
         "llx": 41.95,
         "lly": 258.43,
@@ -2097,6 +2188,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadens postadress",
       "rectPt": {
         "llx": 41.95,
         "lly": 231.5,
@@ -2132,6 +2224,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange vinsten från B punkt 12",
       "rectPt": {
         "llx": 47.62,
         "lly": 176.28,
@@ -2167,6 +2260,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inköpspris från E punkt 3 eller F punkt 1",
       "rectPt": {
         "llx": 174.61,
         "lly": 176.28,
@@ -2202,6 +2296,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris minus försäljningsutgifter",
       "rectPt": {
         "llx": 44.78,
         "lly": 153.6,
@@ -2237,6 +2332,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Uppskovsbelopp efter beräkningen om din nya bostad är billigare än den sålda",
       "rectPt": {
         "llx": 311.47,
         "lly": 146.51,

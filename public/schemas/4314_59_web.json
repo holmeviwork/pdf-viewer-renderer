@@ -1,7 +1,7 @@
 {
   "source": "assets/4314_59_web.pdf",
   "file": "4314_59_web.pdf",
-  "generatedAt": "2026-09-11T19:37:26.371Z",
+  "generatedAt": "2026-09-15T09:43:43.022Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,38 +15,58 @@
     "issued": "20221130",
     "creator": "Skatteverket",
     "title": "Preliminär inkomstdeklaration 1",
-    "templateVersionRef": "56 0.1 (/template/subform[1])"
+    "templateVersionRef": "56 0.1 (/template/subform[1])",
+    "rubrik1": "Preliminär inkomstdeklaration 1",
+    "rubrik2": "Enskild näringsidkare och delägare i handelsbolag m.fl.",
+    "myndighet": "SKV",
+    "formularid": "4314",
+    "utgava": "59",
+    "formularversion": "01",
+    "konstruktionsdatum": "2022-12-13"
   },
+  "xlsFileReferences": null,
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": null
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida2",
+      "hiddenPageBarcode": "Code128BKod"
     },
     {
       "index": 2,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     },
     {
       "index": 3,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     },
     {
       "index": 4,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     },
     {
       "index": 5,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     }
   ],
   "fields": [
@@ -66,6 +86,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Beskattningsår",
       "rectPt": {
         "llx": 301.21,
         "lly": 755.38,
@@ -101,6 +122,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Namn",
       "rectPt": {
         "llx": 44.88,
         "lly": 639.53,
@@ -136,6 +158,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv personnummer eller organisationsnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror. Bindestreck innan kontrollnumret.",
       "rectPt": {
         "llx": 397.64,
         "lly": 640.38,
@@ -158,7 +181,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subVanster[0].subPunkt1Rad1[0].numBelopp[0]",
       "page": 0,
-      "description": "1.1 Överskott av aktiv näringsverksamhet,&#xD;enskild näringsverksamhet",
+      "description": "1.1 Överskott av aktiv näringsverksamhet,\renskild näringsverksamhet",
       "ruta": "1.1",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -171,6 +194,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.1 Överskott av aktiv näringsverksamhet,\renskild näringsverksamhet",
       "rectPt": {
         "llx": 217.65,
         "lly": 573.69,
@@ -206,6 +230,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.2 Överskott av aktiv  näringsverksamhet, handelsbolag",
       "rectPt": {
         "llx": 217.65,
         "lly": 549.98,
@@ -241,6 +266,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.3 Sjukpenning som ingår i överskott av aktiv näringsverksamhet",
       "rectPt": {
         "llx": 217.65,
         "lly": 525.98,
@@ -276,6 +302,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.4 Överskott av passiv näringsverksamhet, enskild näringsverksamhet",
       "rectPt": {
         "llx": 217.65,
         "lly": 501.98,
@@ -298,7 +325,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subVanster[0].subPunkt1Rad5[0].numBelopp[0]",
       "page": 0,
-      "description": "1.5 Överskott av passiv näringsverksamhet,&#xD;handelsbolag",
+      "description": "1.5 Överskott av passiv näringsverksamhet,\rhandelsbolag",
       "ruta": "1.5",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -311,6 +338,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.5 Överskott av passiv näringsverksamhet,\rhandelsbolag",
       "rectPt": {
         "llx": 217.65,
         "lly": 477.98,
@@ -346,6 +374,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.6 Underlag för särskild löneskatt på pensions\tkostnader, eget pensionssparande",
       "rectPt": {
         "llx": 217.65,
         "lly": 453.98,
@@ -381,6 +410,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.7 Underlag för särskild löneskatt på pensions\tkostnader, anställda",
       "rectPt": {
         "llx": 217.65,
         "lly": 429.98,
@@ -416,6 +446,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.8 Ökning av expansionsfond",
       "rectPt": {
         "llx": 217.65,
         "lly": 405.98,
@@ -451,6 +482,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.9 Minskning av expansionsfond",
       "rectPt": {
         "llx": 217.65,
         "lly": 381.97,
@@ -486,6 +518,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "1.10 Underlag för avkastningsskatt på pensions\tkostnader",
       "rectPt": {
         "llx": 217.65,
         "lly": 357.97,
@@ -521,6 +554,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "2.1 Bruttoinkomst",
       "rectPt": {
         "llx": 217.65,
         "lly": 285.96,
@@ -556,6 +590,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "2.2 Kostnader",
       "rectPt": {
         "llx": 217.65,
         "lly": 261.96,
@@ -591,6 +626,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "2.3 Skatteavdrag som görs av andra ",
       "rectPt": {
         "llx": 217.65,
         "lly": 237.96,
@@ -626,6 +662,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "3.1 Underskott av aktiv näringsverksamhet som du får kvitta mot förvärvsinkomst",
       "rectPt": {
         "llx": 217.65,
         "lly": 165.95,
@@ -648,7 +685,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subVanster[0].subPunkt4[0].numBelopp[0]",
       "page": 0,
-      "description": "4.1 Regionalt nedsättningsbelopp&#xD;- endast näringsverksamhet i stödområde",
+      "description": "4.1 Regionalt nedsättningsbelopp\r- endast näringsverksamhet i stödområde",
       "ruta": "4.1",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -661,6 +698,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "4.1 Regionalt nedsättningsbelopp\r- endast näringsverksamhet i stödområde",
       "rectPt": {
         "llx": 217.65,
         "lly": 105.81,
@@ -696,6 +734,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "5.1 Antal karensdagar som du anmält till Försäkringskassan",
       "rectPt": {
         "llx": 217.65,
         "lly": 52.85,
@@ -731,6 +770,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "6.1 Lön och förmåner",
       "rectPt": {
         "llx": 476.81,
         "lly": 573.57,
@@ -766,6 +806,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "6.2 Pensioner inkl. utländska pensioner",
       "rectPt": {
         "llx": 476.81,
         "lly": 549.86,
@@ -801,6 +842,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "6.3 Arbetsskadelivränta, vårdbidrag m.m.",
       "rectPt": {
         "llx": 476.81,
         "lly": 525.86,
@@ -836,6 +878,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "6.4 Sjukpenning, föräldrapenning, A-kassa m.m.",
       "rectPt": {
         "llx": 476.81,
         "lly": 501.28,
@@ -871,6 +914,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "6.5 Kostnadsersättningar\t",
       "rectPt": {
         "llx": 476.81,
         "lly": 476.67,
@@ -906,6 +950,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "6.6 Avdragen A-skatt\t",
       "rectPt": {
         "llx": 476.81,
         "lly": 453.56,
@@ -941,6 +986,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange med siffror vilka månader inkomsten avser. T.ex. mars till december skrivs 03 -12. Ange första siffran här.",
       "rectPt": {
         "llx": 476.85,
         "lly": 381.55,
@@ -976,6 +1022,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange med siffror vilka månader inkomsten avser. T.ex. mars till december skrivs 03 -12. Ange andra siffran här.",
       "rectPt": {
         "llx": 494.76,
         "lly": 381.55,
@@ -1011,6 +1058,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange med siffror vilka månader inkomsten avser. T.ex. mars till december skrivs 03 -12. Ange tredje siffran här.",
       "rectPt": {
         "llx": 516.53,
         "lly": 381.55,
@@ -1046,6 +1094,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange med siffror vilka månader inkomsten avser. T.ex. mars till december skrivs 03 -12. Ange fjärde siffran här.",
       "rectPt": {
         "llx": 535.18,
         "lly": 381.55,
@@ -1081,6 +1130,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.2 Lön och förmåner",
       "rectPt": {
         "llx": 476.81,
         "lly": 357.16,
@@ -1116,6 +1166,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.3 Pensioner inkl. utländska pensioner",
       "rectPt": {
         "llx": 476.81,
         "lly": 333.83,
@@ -1151,6 +1202,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.4 Arbetsskadelivränta, vårdbidrag m.m.",
       "rectPt": {
         "llx": 476.81,
         "lly": 309.84,
@@ -1173,7 +1225,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subHoger[0].subPunkt7Rad5[0].numBelopp[0]",
       "page": 0,
-      "description": "Summa lön/förmåner, pensioner och&#xD;arbetsskadelivränta m.m.",
+      "description": "Summa lön/förmåner, pensioner och\rarbetsskadelivränta m.m.",
       "ruta": null,
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -1186,6 +1238,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Summa lön/förmåner, pensioner och\rarbetsskadelivränta m.m.",
       "rectPt": {
         "llx": 476.81,
         "lly": 285.84,
@@ -1208,7 +1261,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subHoger[0].subPunkt7Rad6[0].numBelopp[0]",
       "page": 0,
-      "description": "7.5 OBS! Måste alltid fyllas i&#xD;- varav lön och förmåner/pension/arbets-&#xD;skadelivränta från huvudutbetalare",
+      "description": "7.5 OBS! Måste alltid fyllas i\r- varav lön och förmåner/pension/arbets-\rskadelivränta från huvudutbetalare",
       "ruta": "7.5",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -1221,6 +1274,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.5 OBS! Måste alltid fyllas i\r- varav lön och förmåner/pension/arbets-\rskadelivränta från huvudutbetalare",
       "rectPt": {
         "llx": 476.81,
         "lly": 249.54,
@@ -1243,7 +1297,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subHoger[0].subPunkt7Rad7[0].numBelopp[0]",
       "page": 0,
-      "description": "7.6 - varav lön och förmåner/pension/&#xD;arbetsskadelivränta som skatteavdrag&#xD; inte görs från",
+      "description": "7.6 - varav lön och förmåner/pension/\rarbetsskadelivränta som skatteavdrag\r inte görs från",
       "ruta": "7.6",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -1256,6 +1310,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.6 - varav lön och förmåner/pension/\rarbetsskadelivränta som skatteavdrag\r inte görs från",
       "rectPt": {
         "llx": 476.81,
         "lly": 213.53,
@@ -1291,6 +1346,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.7 Sjukpenning, föräldrapenning, A-kassa med mera.",
       "rectPt": {
         "llx": 476.81,
         "lly": 189.83,
@@ -1326,6 +1382,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "7.8 Kostnadsersättningar",
       "rectPt": {
         "llx": 476.81,
         "lly": 165.82,
@@ -1348,7 +1405,7 @@
     {
       "name": "BlankettExternFormular[0].Sida1[0].subInkomstOAvdrag[0].subHoger[0].subPunkt8[0].numBeloppRad1[0]",
       "page": 0,
-      "description": "8.1 Inkomst där skatt och socialavgifter &#xD;ska betalas i Sverige (arbetsgivare/&#xD;utbetalare utan fast driftställe i Sverige)",
+      "description": "8.1 Inkomst där skatt och socialavgifter \rska betalas i Sverige (arbetsgivare/\rutbetalare utan fast driftställe i Sverige)",
       "ruta": "8.1",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -1361,6 +1418,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "8.1 Inkomst där skatt och socialavgifter \rska betalas i Sverige (arbetsgivare/\rutbetalare utan fast driftställe i Sverige)",
       "rectPt": {
         "llx": 476.88,
         "lly": 105.98,
@@ -1396,6 +1454,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "8.2 Inkomst där skatt ska betalas i Sverige, t.ex. utsändning (socialavgifter betalas i utlandet)",
       "rectPt": {
         "llx": 476.85,
         "lly": 75.95,
@@ -1431,6 +1490,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv personnummer eller organisationsnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror. Bindestreck innan kontrollnumret.",
       "rectPt": {
         "llx": 397.65,
         "lly": 777.59,
@@ -1466,6 +1526,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "9.1 Hobbyinkomster, royalty med mera.",
       "rectPt": {
         "llx": 217.65,
         "lly": 729.88,
@@ -1501,6 +1562,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "9.2 Vissa inkomster från fåmansbolag",
       "rectPt": {
         "llx": 217.65,
         "lly": 705.88,
@@ -1536,6 +1598,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "9.3 Andra tjänsteinkomster inkl. periodiskt understöd",
       "rectPt": {
         "llx": 217.65,
         "lly": 681.87,
@@ -1571,6 +1634,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "10.1 Resor till och från arbetet",
       "rectPt": {
         "llx": 217.65,
         "lly": 633.87,
@@ -1606,6 +1670,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "10.2 Tjänsteresor",
       "rectPt": {
         "llx": 217.65,
         "lly": 609.87,
@@ -1641,6 +1706,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "10.3 Tillfälligt arbete, dubbel bosättning och hemresor",
       "rectPt": {
         "llx": 217.65,
         "lly": 585.86,
@@ -1676,6 +1742,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "10.4 Övriga utgifter",
       "rectPt": {
         "llx": 217.65,
         "lly": 561.86,
@@ -1698,7 +1765,7 @@
     {
       "name": "BlankettExternFormular[0].Sida2[0].subInkomstOAvdrag[0].subVanster[0].subPunkt11Rad1[0].numBelopp[0]",
       "page": 1,
-      "description": "11.1 Socialförsäkringsavgifter enligt&#xD;EU-förordningen m.m.",
+      "description": "11.1 Socialförsäkringsavgifter enligt\rEU-förordningen m.m.",
       "ruta": "11.1",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -1711,6 +1778,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "11.1 Socialförsäkringsavgifter enligt\rEU-förordningen m.m.",
       "rectPt": {
         "llx": 217.65,
         "lly": 513.86,
@@ -1746,6 +1814,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.1 Ränteinkomster, utdelningar m.m. som skatteavdrag görs från",
       "rectPt": {
         "llx": 217.65,
         "lly": 465.85,
@@ -1781,6 +1850,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.2 Ränteinkomster, utdelningar m.m. som skatteavdrag inte görs från",
       "rectPt": {
         "llx": 217.65,
         "lly": 441.85,
@@ -1816,6 +1886,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.2 Ränteinkomster, utdelningar m.m. som skatteavdrag inte görs från",
       "rectPt": {
         "llx": 217.65,
         "lly": 417.85,
@@ -1851,6 +1922,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.4 Överskott vid uthyrning av privatbostad",
       "rectPt": {
         "llx": 217.65,
         "lly": 393.85,
@@ -1886,6 +1958,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.5 Skattepliktig del av kapitalvinster",
       "rectPt": {
         "llx": 217.65,
         "lly": 369.85,
@@ -1921,6 +1994,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.2 Ränteinkomster, utdelningar m.m. som skatteavdrag inte görs från",
       "rectPt": {
         "llx": 217.65,
         "lly": 345.85,
@@ -1956,6 +2030,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.7 Avdragsgill del av kapitalförluster",
       "rectPt": {
         "llx": 217.65,
         "lly": 321.85,
@@ -1991,6 +2066,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.8 Investeraravdrag",
       "rectPt": {
         "llx": 217.65,
         "lly": 297.85,
@@ -2026,6 +2102,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "12.2 Ränteinkomster, utdelningar m.m. som skatteavdrag inte görs från",
       "rectPt": {
         "llx": 217.65,
         "lly": 273.85,
@@ -2061,6 +2138,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "13.1 Skatteunderlag för kapitalförsäkring",
       "rectPt": {
         "llx": 476.81,
         "lly": 729.88,
@@ -2096,6 +2174,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "13.2 Skatteunderlag för pensionsförsäkring",
       "rectPt": {
         "llx": 476.81,
         "lly": 705.88,
@@ -2131,6 +2210,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.1 Hyreshus: bostäder",
       "rectPt": {
         "llx": 476.81,
         "lly": 633.87,
@@ -2153,7 +2233,7 @@
     {
       "name": "BlankettExternFormular[0].Sida2[0].subInkomstOAvdrag[0].subHoger[0].subPunkt14Rad2[0].numBelopp[0]",
       "page": 1,
-      "description": "14.2 Hyreshus: tomtmark, bostäder&#xD;under uppförande",
+      "description": "14.2 Hyreshus: tomtmark, bostäder\runder uppförande",
       "ruta": "14.2",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -2166,6 +2246,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.2 Hyreshus: tomtmark, bostäder\runder uppförande",
       "rectPt": {
         "llx": 476.81,
         "lly": 609.87,
@@ -2201,6 +2282,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.3 Hyreshus: lokaler",
       "rectPt": {
         "llx": 476.81,
         "lly": 585.86,
@@ -2223,7 +2305,7 @@
     {
       "name": "BlankettExternFormular[0].Sida2[0].subInkomstOAvdrag[0].subHoger[0].subPunkt14Rad4[0].numBelopp[0]",
       "page": 1,
-      "description": "14.4 Industri- och elproduktionsenhet,&#xD;värmekraftverk",
+      "description": "14.4 Industri- och elproduktionsenhet,\rvärmekraftverk",
       "ruta": "14.4",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -2236,6 +2318,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.4 Industri- och elproduktionsenhet,\rvärmekraftverk",
       "rectPt": {
         "llx": 476.81,
         "lly": 561.86,
@@ -2271,6 +2354,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.5 Elproduktionsenhet: vattenkraftverk",
       "rectPt": {
         "llx": 476.81,
         "lly": 537.27,
@@ -2306,6 +2390,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.6 Elproduktionsenhet: vindkraftverk",
       "rectPt": {
         "llx": 476.81,
         "lly": 513.27,
@@ -2328,7 +2413,7 @@
     {
       "name": "BlankettExternFormular[0].Sida2[0].subInkomstOAvdrag[0].subHoger[0].subPunkt14Rad7[0].numBelopp[0]",
       "page": 1,
-      "description": "14.8 Småhus/ägarlägenhet:&#xD;tomtmark, byggnad under uppförande",
+      "description": "14.8 Småhus/ägarlägenhet:\rtomtmark, byggnad under uppförande",
       "ruta": "14.8",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -2341,6 +2426,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.8 Småhus/ägarlägenhet:\rtomtmark, byggnad under uppförande",
       "rectPt": {
         "llx": 476.81,
         "lly": 488.68,
@@ -2363,7 +2449,7 @@
     {
       "name": "BlankettExternFormular[0].Sida2[0].subInkomstOAvdrag[0].subHoger[0].subPunkt14Rad8[0].numBelopp[0]",
       "page": 1,
-      "description": "14.8 Småhus/ägarlägenhet:&#xD;tomtmark, byggnad under uppförande",
+      "description": "14.8 Småhus/ägarlägenhet:\rtomtmark, byggnad under uppförande",
       "ruta": "14.8",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -2376,6 +2462,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "14.8 Småhus/ägarlägenhet:\rtomtmark, byggnad under uppförande",
       "rectPt": {
         "llx": 476.81,
         "lly": 464.68,
@@ -2411,6 +2498,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "15.1 Antal sjödagar, närfart",
       "rectPt": {
         "llx": 476.81,
         "lly": 416.67,
@@ -2446,6 +2534,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "15.2 Antal sjödagar, fjärrfart",
       "rectPt": {
         "llx": 476.81,
         "lly": 392.67,
@@ -2468,7 +2557,7 @@
     {
       "name": "BlankettExternFormular[0].Sida2[0].subInkomstOAvdrag[0].subHoger[0].subPunkt16Rad1[0].numBelopp[0]",
       "page": 1,
-      "description": "16.1 Underlag för skattereduktion för&#xD;gåva",
+      "description": "16.1 Underlag för skattereduktion för\rgåva",
       "ruta": "16.1",
       "picture": "num{zzzzzzzzzzzz9}",
       "valueType": "decimal",
@@ -2481,6 +2570,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "16.1 Underlag för skattereduktion för\rgåva",
       "rectPt": {
         "llx": 476.81,
         "lly": 344.67,
@@ -2516,6 +2606,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "16.3 Underlag skattereduktion för avgift till a-kassa",
       "rectPt": {
         "llx": 476.81,
         "lly": 320.67,
@@ -2551,6 +2642,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Övriga upplysningar",
       "rectPt": {
         "llx": 44.87,
         "lly": 129.53,
@@ -2586,6 +2678,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror eller välj ett datum i kalendern, tangenten pil ner visar kalendern.",
       "rectPt": {
         "llx": 44.88,
         "lly": 69.53,
@@ -2621,6 +2714,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Namnteckning",
       "rectPt": {
         "llx": 160.04,
         "lly": 69.53,
@@ -2656,6 +2750,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Telefonnummer",
       "rectPt": {
         "llx": 44.88,
         "lly": 45.4,
@@ -2691,6 +2786,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "Namnförtydligande",
       "rectPt": {
         "llx": 160.04,
         "lly": 45.4,

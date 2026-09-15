@@ -1,7 +1,7 @@
 {
   "source": "assets/2107_27_web_2025.pdf",
   "file": "2107_27_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:26.070Z",
+  "generatedAt": "2026-09-15T09:43:42.698Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,13 +15,41 @@
     "issued": "2022-09-26",
     "creator": "Skatteverket",
     "title": "SKV2107 K7 Försäljning Näringsfastighet",
-    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])"
+    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])",
+    "rubrik1": "Försäljning",
+    "rubrik2": "Näringsfastighet",
+    "myndighet": "SKV",
+    "formularid": "2107",
+    "utgava": "27",
+    "formularversion": "04",
+    "konstruktionsdatum": "2022-09-26"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2107",
+      "utgava": "27",
+      "formularversion": "04",
+      "konstruktionsdatum": "2022-09-26",
+      "year_yy": "22",
+      "month_mm": "09"
+    },
+    "base_string": "SKV2107-27-04-22-09",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K7",
+        "filename": "K7_SKV2107-27-04-22-09.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "K7M-1-27-2025P4"
     }
   ],
   "fields": [
@@ -41,6 +69,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv datum när blanketten fylls i. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 741.3,
@@ -76,6 +105,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Om du har flera K7 numrera dem då i nummerordning exempelvis 1 för den första 2 för den andra och så vidare",
       "rectPt": {
         "llx": 430.95,
         "lly": 705.3,
@@ -111,6 +141,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Säljarens namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 645.29,
@@ -146,6 +177,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv säljarens personnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 645.29,
@@ -181,6 +213,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Fastighetens beteckning",
       "rectPt": {
         "llx": 42.15,
         "lly": 597.23,
@@ -216,6 +249,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa här om försäljningen är en delförsäljning",
       "rectPt": {
         "llx": 290.42,
         "lly": 598.65,
@@ -247,6 +281,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum enligt köpekontrakt",
       "rectPt": {
         "llx": 430.08,
         "lly": 597.23,
@@ -282,6 +317,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa här om 150 procent av fastighetens taxeringsvärde för år 1952används som inköpspris",
       "rectPt": {
         "llx": 40.96,
         "lly": 574.64,
@@ -313,6 +349,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Inköpsdatum enligt köpekontrakt",
       "rectPt": {
         "llx": 429.99,
         "lly": 573.22,
@@ -348,6 +385,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange försäljningspris enligt  köpekontrakt",
       "rectPt": {
         "llx": 315.75,
         "lly": 519.17,
@@ -383,6 +421,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange försäljningsutgifter, mäklararvode med mera. ",
       "rectPt": {
         "llx": 315.75,
         "lly": 495.17,
@@ -418,6 +457,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inköpspris, lagfartskostnad med mera.",
       "rectPt": {
         "llx": 315.75,
         "lly": 471.17,
@@ -453,6 +493,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förbättringsutgifter grundförbättringar till exempel nybyggnad, tillbyggnad eller ombyggnad",
       "rectPt": {
         "llx": 315.75,
         "lly": 447.16,
@@ -488,6 +529,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förbättringsutgifter, förbättrande reparationer och underhåll ",
       "rectPt": {
         "llx": 315.75,
         "lly": 423.16,
@@ -523,6 +565,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Avskrivningar som skett mot ersättningsfond för mark ",
       "rectPt": {
         "llx": 315.75,
         "lly": 399.15,
@@ -545,7 +588,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB_yttre[0].subB_inre[0].subVanster[0].subRad7[0].SummaBeloppAterforing[0]",
       "page": 0,
-      "description": "Återföring vid värdenedgång Om punkt 1 minus punkt 3 minus punkt 4 minus punkt 5 plus punkt 6 blir ett&#xD;negativt belopp ska värdeminskningsavdrag med mera upp till  motsvarande det negativa beloppet återföras här istället för i näringsverksamheten",
+      "description": "Återföring vid värdenedgång Om punkt 1 minus punkt 3 minus punkt 4 minus punkt 5 plus punkt 6 blir ett\rnegativt belopp ska värdeminskningsavdrag med mera upp till  motsvarande det negativa beloppet återföras här istället för i näringsverksamheten",
       "ruta": null,
       "picture": "num{z,zzz,zzz,zz9}",
       "valueType": null,
@@ -558,6 +601,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": " Återföring vid värdenedgång Om punkt 1 minus punkt 3 minus punkt 4 minus punkt 5 plus punkt 6 blir ett\rnegativt belopp ska värdeminskningsavdrag med mera upp till  motsvarande det negativa beloppet återföras här istället för i näringsverksamheten",
       "rectPt": {
         "llx": 315.75,
         "lly": 357.09,
@@ -593,6 +637,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange eventuell återföring av uppskovsbelopp",
       "rectPt": {
         "llx": 315.75,
         "lly": 332.77,
@@ -628,6 +673,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange din ägarandel i procent",
       "rectPt": {
         "llx": 141.37,
         "lly": 308.76,
@@ -663,6 +709,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknad ägarandel i kronor",
       "rectPt": {
         "llx": 315.8,
         "lly": 308.76,
@@ -698,6 +745,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Återföring av uppskovsbelopp",
       "rectPt": {
         "llx": 315.75,
         "lly": 284.76,
@@ -733,6 +781,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst eller förlust",
       "rectPt": {
         "llx": 315.75,
         "lly": 260.75,
@@ -755,7 +804,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subB_yttre[0].subB_inre[0].subVanster[0].subRad12[0].SummaAvdragSlutUppskov[0]",
       "page": 0,
-      "description": "Avgår från vinst  Underskott i den näringsverksamhet som  fastigheten ingår i (avdraget får inte vara större än vinsten i p.11).&#xD;Beloppet tar du även upp vid R46 i blankett NE eller vid p. 31b i blankett N3A",
+      "description": "Avgår från vinst  Underskott i den näringsverksamhet som  fastigheten ingår i (avdraget får inte vara större än vinsten i p.11).\rBeloppet tar du även upp vid R46 i blankett NE eller vid p. 31b i blankett N3A",
       "ruta": null,
       "picture": "num{z,zzz,zzz,zz9}",
       "valueType": null,
@@ -768,6 +817,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Avgår från vinst  Underskott i den näringsverksamhet som  fastigheten ingår i (avdraget får inte vara större än vinsten i p.11).\rBeloppet tar du även upp vid R46 i blankett NE eller vid p. 31b i blankett N3A",
       "rectPt": {
         "llx": 315.75,
         "lly": 218.69,
@@ -803,6 +853,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "13. Vinst efter avdrag för underskott i näringsverksamhet  (beloppet kan inte bli lägre än 0 kr)",
       "rectPt": {
         "llx": 315.75,
         "lly": 194.68,
@@ -838,6 +889,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 315.75,
         "lly": 170.68,

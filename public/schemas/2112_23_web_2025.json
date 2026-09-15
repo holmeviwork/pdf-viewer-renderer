@@ -1,7 +1,7 @@
 {
   "source": "assets/2112_23_web_2025.pdf",
   "file": "2112_23_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:26.151Z",
+  "generatedAt": "2026-09-15T09:43:42.792Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,13 +15,41 @@
     "issued": "2023-09-08",
     "creator": "Skatteverket",
     "title": "SKV2112 K12 Okvalificerade andelar Onoterade företag",
-    "templateVersionRef": "23_02 (/template/subform[1])"
+    "templateVersionRef": "23_02 (/template/subform[1])",
+    "rubrik1": "Okvalificerade andelar",
+    "rubrik2": "Onoterade företag",
+    "myndighet": "SKV",
+    "formularid": "2112",
+    "utgava": "23",
+    "formularversion": "02",
+    "konstruktionsdatum": "2023-04-05"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2112",
+      "utgava": "23",
+      "formularversion": "02",
+      "konstruktionsdatum": "2023-04-05",
+      "year_yy": "23",
+      "month_mm": "04"
+    },
+    "base_string": "SKV2112-23-02-23-04",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K12",
+        "filename": "K12_SKV2112-23-02-23-04.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "K12M-1-23-2025P4"
     }
   ],
   "fields": [
@@ -41,6 +69,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Välj datum när blanketten fylls i eller ange datum med fyra siffror för år, två siffror för månad och två siffror för dag.",
       "rectPt": {
         "llx": 430.95,
         "lly": 741.3,
@@ -76,6 +105,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Numrering vid flera K12",
       "rectPt": {
         "llx": 430.95,
         "lly": 705.3,
@@ -111,6 +141,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 657.29,
@@ -146,6 +177,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Personnummer",
       "rectPt": {
         "llx": 430.95,
         "lly": 657.29,
@@ -181,6 +213,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Företagets namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 621.29,
@@ -216,6 +249,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 430.95,
         "lly": 621.29,
@@ -251,6 +285,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 11.20 Tf 0 g",
+      "screenReaderText": "Kryss om passiv näringsverksamhet",
       "rectPt": {
         "llx": 42.27,
         "lly": 600.12,
@@ -282,6 +317,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": " Utdelning",
       "rectPt": {
         "llx": 315.75,
         "lly": 549.31,
@@ -317,6 +353,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": " Utdelning som ska tas upp i kapital; beloppet vid p. 1.1 x 5/6",
       "rectPt": {
         "llx": 315.75,
         "lly": 525.3,
@@ -352,6 +389,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal",
       "rectPt": {
         "llx": 48.98,
         "lly": 435.28,
@@ -387,6 +425,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris",
       "rectPt": {
         "llx": 134.02,
         "lly": 435.28,
@@ -422,6 +461,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp",
       "rectPt": {
         "llx": 219.06,
         "lly": 435.28,
@@ -457,6 +497,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 299.49,
         "lly": 435.28,
@@ -492,6 +533,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 429.82,
         "lly": 435.28,
@@ -527,6 +569,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal",
       "rectPt": {
         "llx": 48.98,
         "lly": 411.28,
@@ -562,6 +605,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris",
       "rectPt": {
         "llx": 134.02,
         "lly": 411.28,
@@ -597,6 +641,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp",
       "rectPt": {
         "llx": 219.06,
         "lly": 411.28,
@@ -632,6 +677,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 299.49,
         "lly": 411.28,
@@ -667,6 +713,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 429.82,
         "lly": 411.28,
@@ -702,6 +749,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal",
       "rectPt": {
         "llx": 48.98,
         "lly": 387.27,
@@ -737,6 +785,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris",
       "rectPt": {
         "llx": 134.02,
         "lly": 387.27,
@@ -772,6 +821,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp",
       "rectPt": {
         "llx": 219.06,
         "lly": 387.27,
@@ -807,6 +857,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 299.49,
         "lly": 387.27,
@@ -842,6 +893,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 429.82,
         "lly": 387.27,
@@ -877,6 +929,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 313.53,
         "lly": 363.27,
@@ -912,6 +965,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 440.03,
         "lly": 361.86,
@@ -947,6 +1001,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "vinst x 5/6",
       "rectPt": {
         "llx": 313.53,
         "lly": 339.27,
@@ -982,6 +1037,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust x 5/6",
       "rectPt": {
         "llx": 441.45,
         "lly": 339.27,
@@ -1017,6 +1073,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal",
       "rectPt": {
         "llx": 48.98,
         "lly": 207.73,
@@ -1052,6 +1109,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris",
       "rectPt": {
         "llx": 134.02,
         "lly": 207.73,
@@ -1087,6 +1145,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp",
       "rectPt": {
         "llx": 219.06,
         "lly": 207.73,
@@ -1122,6 +1181,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 299.98,
         "lly": 207.73,
@@ -1157,6 +1217,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 429.84,
         "lly": 207.73,
@@ -1192,6 +1253,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal",
       "rectPt": {
         "llx": 48.98,
         "lly": 183.73,
@@ -1227,6 +1289,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris",
       "rectPt": {
         "llx": 134.02,
         "lly": 183.73,
@@ -1262,6 +1325,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp",
       "rectPt": {
         "llx": 219.06,
         "lly": 183.73,
@@ -1297,6 +1361,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 299.98,
         "lly": 183.73,
@@ -1332,6 +1397,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 429.84,
         "lly": 183.73,
@@ -1367,6 +1433,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal",
       "rectPt": {
         "llx": 48.98,
         "lly": 159.73,
@@ -1402,6 +1469,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris",
       "rectPt": {
         "llx": 134.02,
         "lly": 159.73,
@@ -1437,6 +1505,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp",
       "rectPt": {
         "llx": 219.06,
         "lly": 159.73,
@@ -1472,6 +1541,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 299.98,
         "lly": 159.73,
@@ -1507,6 +1577,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 429.84,
         "lly": 159.73,
@@ -1542,6 +1613,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 314.03,
         "lly": 135.73,
@@ -1577,6 +1649,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 441.47,
         "lly": 135.73,
@@ -1612,6 +1685,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst x 5/6",
       "rectPt": {
         "llx": 314.03,
         "lly": 111.72,

@@ -1,7 +1,7 @@
 {
   "source": "assets/2111_03_web_2025.pdf",
   "file": "2111_03_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:26.133Z",
+  "generatedAt": "2026-09-15T09:43:42.771Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,18 +15,48 @@
     "issued": null,
     "creator": null,
     "title": null,
-    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])"
+    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])",
+    "rubrik1": "Investeraravdrag",
+    "rubrik2": null,
+    "myndighet": "SKV",
+    "formularid": "2111",
+    "utgava": "03",
+    "formularversion": "02",
+    "konstruktionsdatum": "20180926"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2111",
+      "utgava": "03",
+      "formularversion": "02",
+      "konstruktionsdatum": "20180926",
+      "year_yy": "18",
+      "month_mm": "09"
+    },
+    "base_string": "SKV2111-03-02-18-09",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K11",
+        "filename": "K11_SKV2111-03-02-18-09.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "K11M-1-03-2025P4"
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     }
   ],
   "fields": [
@@ -46,6 +76,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtDatFramst",
       "rectPt": {
         "llx": 433.64,
         "lly": 753.56,
@@ -81,6 +112,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtDatFramst",
       "rectPt": {
         "llx": 433.61,
         "lly": 711.3,
@@ -116,6 +148,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "txtDelagarNamn",
       "rectPt": {
         "llx": 44.85,
         "lly": 668.64,
@@ -151,6 +184,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "NNNNNN-NNNN",
       "rectPt": {
         "llx": 433.64,
         "lly": 668.64,
@@ -186,6 +220,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "txtForetagsNamn",
       "rectPt": {
         "llx": 44.84,
         "lly": 627.29,
@@ -221,6 +256,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "NNNNNN-NNNN",
       "rectPt": {
         "llx": 433.64,
         "lly": 627.29,
@@ -256,6 +292,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.1",
       "rectPt": {
         "llx": 304.04,
         "lly": 555.02,
@@ -291,6 +328,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.2",
       "rectPt": {
         "llx": 304.04,
         "lly": 531.26,
@@ -326,6 +364,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.3",
       "rectPt": {
         "llx": 304.04,
         "lly": 507.02,
@@ -361,6 +400,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.4",
       "rectPt": {
         "llx": 210.44,
         "lly": 483.01,
@@ -396,6 +436,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 9.60 Tf 0 g",
+      "screenReaderText": "krsAlternativ",
       "rectPt": {
         "llx": 265.21,
         "lly": 457.84,
@@ -427,6 +468,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.4",
       "rectPt": {
         "llx": 304.04,
         "lly": 398.99,
@@ -462,6 +504,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.5",
       "rectPt": {
         "llx": 210.44,
         "lly": 374.99,
@@ -497,6 +540,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.6",
       "rectPt": {
         "llx": 304.04,
         "lly": 314.96,
@@ -532,6 +576,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.7",
       "rectPt": {
         "llx": 304.04,
         "lly": 254.94,
@@ -567,6 +612,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Txt1.8",
       "rectPt": {
         "llx": 304.04,
         "lly": 187.24,

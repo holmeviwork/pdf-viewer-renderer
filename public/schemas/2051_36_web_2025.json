@@ -1,7 +1,7 @@
 {
   "source": "assets/2051_36_web_2025.pdf",
   "file": "2051_36_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:25.939Z",
+  "generatedAt": "2026-09-15T09:43:42.546Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,23 +15,55 @@
     "issued": "2025-08-27",
     "creator": "Skatteverket",
     "title": "Inkomst av tjänst, Inkomst av hobby, internetinkomster m.m. T2 SKV 2051",
-    "templateVersionRef": "36_03 (/template/subform[1])"
+    "templateVersionRef": "36_03 (/template/subform[1])",
+    "rubrik1": "Inkomst av tjänst",
+    "rubrik2": "Inkomst av hobby, internetinkomster m.m.",
+    "myndighet": "SKV",
+    "formularid": "2051",
+    "utgava": "36",
+    "formularversion": "03",
+    "konstruktionsdatum": "2025-08-27"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2051",
+      "utgava": "36",
+      "formularversion": "03",
+      "konstruktionsdatum": "2025-08-27",
+      "year_yy": "25",
+      "month_mm": "08"
+    },
+    "base_string": "SKV2051-36-03-25-08",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "T2",
+        "filename": "T2_SKV2051-36-03-25-08.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": null
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "T2M-1-36-2025P4"
     },
     {
       "index": 2,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     }
   ],
   "fields": [
@@ -51,6 +83,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv datum när blanketten fylls i. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 742.87,
@@ -86,6 +119,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Om du har flera T2 numrera dem då i nummerordning exempelvis 1 för den första 2 för den andra och så vidare",
       "rectPt": {
         "llx": 430.95,
         "lly": 707.28,
@@ -121,6 +155,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 635.28,
@@ -156,6 +191,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv personnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror.",
       "rectPt": {
         "llx": 430.96,
         "lly": 635.28,
@@ -191,6 +227,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beskriv din verksamhet",
       "rectPt": {
         "llx": 42.15,
         "lly": 573.25,
@@ -226,6 +263,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inkomster",
       "rectPt": {
         "llx": 315.75,
         "lly": 525.27,
@@ -261,6 +299,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange kontanta utgifter",
       "rectPt": {
         "llx": 315.76,
         "lly": 501.27,
@@ -296,6 +335,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förslitningsavdrag",
       "rectPt": {
         "llx": 315.75,
         "lly": 477.26,
@@ -331,6 +371,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Summa beräknat överskott",
       "rectPt": {
         "llx": 315.75,
         "lly": 453.25,
@@ -366,6 +407,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Summa beräknat underskott",
       "rectPt": {
         "llx": 315.75,
         "lly": 417.25,
@@ -401,6 +443,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Årets överskott enligt avsnitt B punkt 4",
       "rectPt": {
         "llx": 315.75,
         "lly": 369.24,
@@ -436,6 +479,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Avdrag för underskott från något eller några av inkomståren 2020-2024 enligt tidigare års deklarationer eller redovisning under avsnittt E på sidan 2. Högst årets överskott.",
       "rectPt": {
         "llx": 315.75,
         "lly": 321.23,
@@ -471,6 +515,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Sätt kryss om underskottet avser inkomstår 2020",
       "rectPt": {
         "llx": 452.66,
         "lly": 322.65,
@@ -502,6 +547,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Sätt kryss om underskottet avser inkomstår 2021",
       "rectPt": {
         "llx": 474.26,
         "lly": 322.65,
@@ -533,6 +579,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Sätt kryss om underskottet avser inkomstår 2022",
       "rectPt": {
         "llx": 495.86,
         "lly": 322.68,
@@ -564,6 +611,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Sätt kryss om underskottet avser inkomstår 2023",
       "rectPt": {
         "llx": 517.46,
         "lly": 322.65,
@@ -595,6 +643,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 8.80 Tf 0 g",
+      "screenReaderText": "Sätt kryss om underskottet avser inkomstår 2024",
       "rectPt": {
         "llx": 539.06,
         "lly": 322.65,
@@ -626,6 +675,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat överskott efter avdrag för tidigare års underskott",
       "rectPt": {
         "llx": 315.75,
         "lly": 297.23,
@@ -661,6 +711,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Överskott eller 0 kr enligt avsnitt C punkt 3, 0 kr vid underskott enligt avsnitt B punkt 5",
       "rectPt": {
         "llx": 315.75,
         "lly": 249.22,
@@ -696,6 +747,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Föregående års schablonavdrag för egenavgifter med mera",
       "rectPt": {
         "llx": 315.75,
         "lly": 225.22,
@@ -731,6 +783,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Påförda egenavgifter med mera enligt slutskattebeskedet 2025",
       "rectPt": {
         "llx": 315.75,
         "lly": 201.22,
@@ -766,6 +819,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Summa överskott alternativt underskott",
       "rectPt": {
         "llx": 315.75,
         "lly": 177.22,
@@ -801,6 +855,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Årets schablonavdrag för egenavgifter med mera vid överskott på raden ovan",
       "rectPt": {
         "llx": 315.75,
         "lly": 153.21,
@@ -836,6 +891,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat resultat av överskott",
       "rectPt": {
         "llx": 315.75,
         "lly": 129.23,
@@ -871,6 +927,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat resultat av underskott vid avstämning av egenavgifter",
       "rectPt": {
         "llx": 315.75,
         "lly": 105.22,
@@ -906,6 +963,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "TxtPersOrgNr",
       "rectPt": {
         "llx": 430.95,
         "lly": 789.3,
@@ -941,6 +999,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inkomster för inkomstår 2020",
       "rectPt": {
         "llx": 315.75,
         "lly": 693.31,
@@ -976,6 +1035,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange kontanta utgifter för inkomstår 2020",
       "rectPt": {
         "llx": 315.75,
         "lly": 669.3,
@@ -1011,6 +1071,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förslitningsavdrag för inkomstår 2020",
       "rectPt": {
         "llx": 315.75,
         "lly": 645.3,
@@ -1046,6 +1107,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat underskott för inkomståret 2020",
       "rectPt": {
         "llx": 315.75,
         "lly": 621.3,
@@ -1081,6 +1143,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inkomster för inkomstår 2021",
       "rectPt": {
         "llx": 315.75,
         "lly": 573.29,
@@ -1116,6 +1179,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange kontanta utgifter för inkomstår 2021",
       "rectPt": {
         "llx": 315.74,
         "lly": 549.29,
@@ -1151,6 +1215,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förslitningsavdrag för inkomstår 2021",
       "rectPt": {
         "llx": 315.74,
         "lly": 525.29,
@@ -1186,6 +1251,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat underskott för inkomståret 2021",
       "rectPt": {
         "llx": 315.74,
         "lly": 501.29,
@@ -1221,6 +1287,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inkomster för inkomstår 2022",
       "rectPt": {
         "llx": 315.74,
         "lly": 453.29,
@@ -1256,6 +1323,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange kontanta utgifter för inkomstår 2022",
       "rectPt": {
         "llx": 315.74,
         "lly": 429.28,
@@ -1291,6 +1359,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förslitningsavdrag för inkomstår 2022",
       "rectPt": {
         "llx": 315.74,
         "lly": 405.28,
@@ -1326,6 +1395,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat underskott för inkomståret 2022",
       "rectPt": {
         "llx": 315.74,
         "lly": 381.28,
@@ -1361,6 +1431,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inkomster för inkomstår 2023",
       "rectPt": {
         "llx": 315.74,
         "lly": 333.28,
@@ -1396,6 +1467,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange kontanta utgifter för inkomstår 2023",
       "rectPt": {
         "llx": 315.74,
         "lly": 309.27,
@@ -1431,6 +1503,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förslitningsavdrag för inkomstår 2023",
       "rectPt": {
         "llx": 315.75,
         "lly": 285.26,
@@ -1466,6 +1539,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat underskott för inkomståret 2023",
       "rectPt": {
         "llx": 315.74,
         "lly": 261.27,
@@ -1501,6 +1575,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inkomster för inkomstår 2024",
       "rectPt": {
         "llx": 315.74,
         "lly": 213.27,
@@ -1536,6 +1611,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange kontanta utgifter för inkomstår 2024",
       "rectPt": {
         "llx": 315.74,
         "lly": 189.26,
@@ -1571,6 +1647,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange förslitningsavdrag för inkomstår 2024",
       "rectPt": {
         "llx": 315.75,
         "lly": 165.25,
@@ -1606,6 +1683,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beräknat underskott för inkomståret 2024",
       "rectPt": {
         "llx": 315.74,
         "lly": 141.26,

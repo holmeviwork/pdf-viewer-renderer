@@ -1,7 +1,7 @@
 {
   "source": "assets/2115_15_web_2025.pdf",
   "file": "2115_15_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:26.188Z",
+  "generatedAt": "2026-09-15T09:43:42.834Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,18 +15,48 @@
     "issued": null,
     "creator": null,
     "title": null,
-    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])"
+    "templateVersionRef": "9.0.0.2.20101008.2.720808 (/template/subform[1])",
+    "rubrik1": "Avyttring",
+    "rubrik2": "Andel i handelsbolag",
+    "myndighet": "SKV",
+    "formularid": "2115",
+    "utgava": "15",
+    "formularversion": "02",
+    "konstruktionsdatum": "20170522"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2115",
+      "utgava": "15",
+      "formularversion": "02",
+      "konstruktionsdatum": "20170522",
+      "year_yy": "17",
+      "month_mm": "05"
+    },
+    "base_string": "SKV2115-15-02-17-05",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K15A",
+        "filename": "K15A_SKV2115-15-02-17-05.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "K15AM-1-15-2025P4"
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     }
   ],
   "fields": [
@@ -46,6 +76,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Datum då blanketten fylls i",
       "rectPt": {
         "llx": 430.95,
         "lly": 741.3,
@@ -81,6 +112,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Numrering vid flera K15A",
       "rectPt": {
         "llx": 430.95,
         "lly": 705.3,
@@ -116,6 +148,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Den skattskyldiges namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 657.29,
@@ -151,6 +184,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Person-/organisationsnummer",
       "rectPt": {
         "llx": 430.95,
         "lly": 657.29,
@@ -186,6 +220,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 549.57,
@@ -221,6 +256,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 549.57,
@@ -256,6 +292,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 549.57,
@@ -291,6 +328,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.75,
         "lly": 549.57,
@@ -326,6 +364,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 549.57,
@@ -361,6 +400,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 549.57,
@@ -396,6 +436,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.72,
         "lly": 477.56,
@@ -431,6 +472,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 513.56,
@@ -466,6 +508,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 477.56,
@@ -501,6 +544,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 42.16,
         "lly": 477.27,
@@ -536,6 +580,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum",
       "rectPt": {
         "llx": 171.72,
         "lly": 477.27,
@@ -571,6 +616,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 477.56,
@@ -593,7 +639,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subA[0].subRad1[0].TxtErsattningMinus[0]",
       "page": 0,
-      "description": "Ersättning minus&#xD;utgifter för avyttringen.Ersättningen&#xD;för andelen ska ökas&#xD;med anskaffnings-utgiften om den är&#xD;negativ.",
+      "description": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -606,6 +652,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "rectPt": {
         "llx": 243.75,
         "lly": 477.27,
@@ -641,6 +688,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 477.56,
@@ -676,6 +724,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 477.56,
@@ -711,6 +760,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Justerad anskaffningsutgift enligt blankett N3A. Om den justerade an-skaffningsutgiften är negativ anges noll kronor (beloppet ska i stället öka ersättningen).",
       "rectPt": {
         "llx": 322.95,
         "lly": 477.27,
@@ -746,6 +796,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 477.27,
@@ -781,6 +832,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 477.56,
@@ -816,6 +868,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 481.35,
         "lly": 477.27,
@@ -851,6 +904,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.72,
         "lly": 405.56,
@@ -886,6 +940,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPSMT 11.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 441.56,
@@ -921,6 +976,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 405.56,
@@ -956,6 +1012,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 42.16,
         "lly": 405.27,
@@ -991,6 +1048,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum",
       "rectPt": {
         "llx": 171.72,
         "lly": 405.27,
@@ -1026,6 +1084,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 405.56,
@@ -1048,7 +1107,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subA[0].subRad2[0].TxtErsattningMinus[0]",
       "page": 0,
-      "description": "Ersättning minus&#xD;utgifter för avyttringen.Ersättningen&#xD;för andelen ska ökas&#xD;med anskaffnings-utgiften om den är&#xD;negativ.",
+      "description": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -1061,6 +1120,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "rectPt": {
         "llx": 243.75,
         "lly": 405.27,
@@ -1096,6 +1156,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 405.56,
@@ -1131,6 +1192,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 405.56,
@@ -1166,6 +1228,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Justerad anskaffningsutgift enligt blankett N3A. Om den justerade an-skaffningsutgiften är negativ anges noll kronor (beloppet ska i stället öka ersättningen).",
       "rectPt": {
         "llx": 322.95,
         "lly": 405.27,
@@ -1201,6 +1264,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 405.27,
@@ -1236,6 +1300,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 405.56,
@@ -1271,6 +1336,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 481.35,
         "lly": 405.27,
@@ -1306,6 +1372,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.72,
         "lly": 333.55,
@@ -1341,6 +1408,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 369.55,
@@ -1376,6 +1444,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 333.55,
@@ -1411,6 +1480,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 42.16,
         "lly": 333.26,
@@ -1446,6 +1516,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum",
       "rectPt": {
         "llx": 171.72,
         "lly": 333.26,
@@ -1481,6 +1552,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 333.55,
@@ -1503,7 +1575,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subA[0].subRad3[0].TxtErsattningMinus[0]",
       "page": 0,
-      "description": "Ersättning minus&#xD;utgifter för avyttringen.Ersättningen&#xD;för andelen ska ökas&#xD;med anskaffnings-utgiften om den är&#xD;negativ.",
+      "description": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -1516,6 +1588,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "rectPt": {
         "llx": 243.75,
         "lly": 333.26,
@@ -1551,6 +1624,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 333.55,
@@ -1586,6 +1660,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 333.55,
@@ -1621,6 +1696,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Justerad anskaffningsutgift enligt blankett N3A. Om den justerade an-skaffningsutgiften är negativ anges noll kronor (beloppet ska i stället öka ersättningen).",
       "rectPt": {
         "llx": 322.95,
         "lly": 333.26,
@@ -1656,6 +1732,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 333.26,
@@ -1691,6 +1768,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 333.55,
@@ -1726,6 +1804,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 481.35,
         "lly": 333.26,
@@ -1761,6 +1840,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.72,
         "lly": 261.55,
@@ -1796,6 +1876,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 297.55,
@@ -1831,6 +1912,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 261.54,
@@ -1866,6 +1948,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 42.16,
         "lly": 261.26,
@@ -1901,6 +1984,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum",
       "rectPt": {
         "llx": 171.72,
         "lly": 261.26,
@@ -1936,6 +2020,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 261.54,
@@ -1958,7 +2043,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subA[0].subRad4[0].TxtErsattningMinus[0]",
       "page": 0,
-      "description": "Ersättning minus&#xD;utgifter för avyttringen.Ersättningen&#xD;för andelen ska ökas&#xD;med anskaffnings-utgiften om den är&#xD;negativ.",
+      "description": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -1971,6 +2056,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "rectPt": {
         "llx": 243.75,
         "lly": 261.25,
@@ -2006,6 +2092,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 261.55,
@@ -2041,6 +2128,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 261.55,
@@ -2076,6 +2164,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Justerad anskaffningsutgift enligt blankett N3A. Om den justerade an-skaffningsutgiften är negativ anges noll kronor (beloppet ska i stället öka ersättningen).",
       "rectPt": {
         "llx": 322.95,
         "lly": 261.26,
@@ -2111,6 +2200,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 261.26,
@@ -2146,6 +2236,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 261.55,
@@ -2181,6 +2272,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 481.35,
         "lly": 261.26,
@@ -2216,6 +2308,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.72,
         "lly": 189.54,
@@ -2251,6 +2344,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 225.54,
@@ -2286,6 +2380,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 189.54,
@@ -2321,6 +2416,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 42.16,
         "lly": 189.25,
@@ -2356,6 +2452,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum",
       "rectPt": {
         "llx": 171.72,
         "lly": 189.25,
@@ -2391,6 +2488,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 189.54,
@@ -2413,7 +2511,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subA[0].subRad5[0].TxtErsattningMinus[0]",
       "page": 0,
-      "description": "Ersättning minus&#xD;utgifter för avyttringen.Ersättningen&#xD;för andelen ska ökas&#xD;med anskaffnings-utgiften om den är&#xD;negativ.",
+      "description": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -2426,6 +2524,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "rectPt": {
         "llx": 243.75,
         "lly": 189.25,
@@ -2461,6 +2560,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 189.54,
@@ -2496,6 +2596,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 189.54,
@@ -2531,6 +2632,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Justerad anskaffningsutgift enligt blankett N3A. Om den justerade an-skaffningsutgiften är negativ anges noll kronor (beloppet ska i stället öka ersättningen).",
       "rectPt": {
         "llx": 322.95,
         "lly": 189.25,
@@ -2566,6 +2668,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 189.25,
@@ -2601,6 +2704,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 189.54,
@@ -2636,6 +2740,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 481.35,
         "lly": 189.25,
@@ -2671,6 +2776,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 171.72,
         "lly": 117.54,
@@ -2706,6 +2812,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 153.54,
@@ -2741,6 +2848,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 117.53,
@@ -2776,6 +2884,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 42.16,
         "lly": 117.25,
@@ -2811,6 +2920,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum",
       "rectPt": {
         "llx": 171.72,
         "lly": 117.25,
@@ -2846,6 +2956,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 243.75,
         "lly": 117.53,
@@ -2868,7 +2979,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subA[0].subRad6[0].TxtErsattningMinus[0]",
       "page": 0,
-      "description": "Ersättning minus&#xD;utgifter för avyttringen.Ersättningen&#xD;för andelen ska ökas&#xD;med anskaffnings-utgiften om den är&#xD;negativ.",
+      "description": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "ruta": null,
       "picture": null,
       "valueType": null,
@@ -2881,6 +2992,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus\rutgifter för avyttringen.Ersättningen\rför andelen ska ökas\rmed anskaffnings-utgiften om den är\rnegativ.",
       "rectPt": {
         "llx": 243.75,
         "lly": 117.24,
@@ -2916,6 +3028,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 322.95,
         "lly": 117.54,
@@ -2951,6 +3064,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 117.54,
@@ -2986,6 +3100,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Justerad anskaffningsutgift enligt blankett N3A. Om den justerade an-skaffningsutgiften är negativ anges noll kronor (beloppet ska i stället öka ersättningen).",
       "rectPt": {
         "llx": 322.95,
         "lly": 117.25,
@@ -3021,6 +3136,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 117.25,
@@ -3056,6 +3172,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 117.54,
@@ -3091,6 +3208,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 481.35,
         "lly": 117.25,
@@ -3126,6 +3244,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 42.16,
         "lly": 93.53,
@@ -3161,6 +3280,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 402.15,
         "lly": 93.53,
@@ -3196,6 +3316,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 402.15,
         "lly": 93.25,
@@ -3231,6 +3352,7 @@
       "rotate": null,
       "access": "protected",
       "font": "/TimesNewRomanPSMT 12.00 Tf 0 g",
+      "screenReaderText": "ruta",
       "rectPt": {
         "llx": 481.35,
         "lly": 93.53,
@@ -3266,6 +3388,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 481.35,
         "lly": 93.24,

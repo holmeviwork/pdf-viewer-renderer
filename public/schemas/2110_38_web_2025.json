@@ -1,7 +1,7 @@
 {
   "source": "assets/2110_38_web_2025.pdf",
   "file": "2110_38_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:26.121Z",
+  "generatedAt": "2026-09-15T09:43:42.758Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,28 +15,62 @@
     "issued": "2026-02-04",
     "creator": "Skatteverket",
     "title": "SKV2110 K10 Kvalificerade andelar Fåmansföretag",
-    "templateVersionRef": "38_02 (/template/subform[1])"
+    "templateVersionRef": "38_02 (/template/subform[1])",
+    "rubrik1": "Kvalificerade andelar",
+    "rubrik2": "Fåmansföretag",
+    "myndighet": "SKV",
+    "formularid": "2110",
+    "utgava": "38",
+    "formularversion": "02",
+    "konstruktionsdatum": "2026-02-04"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2110",
+      "utgava": "38",
+      "formularversion": "02",
+      "konstruktionsdatum": "2026-02-04",
+      "year_yy": "26",
+      "month_mm": "02"
+    },
+    "base_string": "SKV2110-38-02-26-02",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K10",
+        "filename": "K10_SKV2110-38-02-26-02.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "K10M-1-38-2025P4"
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida2",
+      "hiddenPageBarcode": "K10M-2-38-2025P4"
     },
     {
       "index": 2,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida3",
+      "hiddenPageBarcode": "K10M-3-38-2025P4"
     },
     {
       "index": 3,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida4",
+      "hiddenPageBarcode": "K10M-4-38-2025P4"
     }
   ],
   "fields": [
@@ -56,6 +90,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv datum när blanketten fylls i. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 755.29,
@@ -91,6 +126,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Delägarens namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 704.97,
@@ -126,6 +162,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Delägarens personnummer",
       "rectPt": {
         "llx": 358.95,
         "lly": 704.97,
@@ -161,6 +198,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal ägda andelar vid årets ingång",
       "rectPt": {
         "llx": 474.15,
         "lly": 704.97,
@@ -196,6 +234,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Företagets namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 662.96,
@@ -231,6 +270,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Företagets organisationsnummer",
       "rectPt": {
         "llx": 358.95,
         "lly": 662.96,
@@ -266,6 +306,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Totala antalet andelar i hela företaget vid årets ingång",
       "rectPt": {
         "llx": 474.15,
         "lly": 662.96,
@@ -301,6 +342,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 11.20 Tf 0 g",
+      "screenReaderText": "Kryss om passiv näringsverksamhet",
       "rectPt": {
         "llx": 42.16,
         "lly": 641.79,
@@ -332,6 +374,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Nemrering vid flera K10",
       "rectPt": {
         "llx": 358.95,
         "lly": 638.96,
@@ -367,6 +410,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Årets gränsbelopp enligt förenklingsregeln. ",
       "rectPt": {
         "llx": 314.33,
         "lly": 566.97,
@@ -402,6 +446,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Sparat utdelningsutrymme från föregående år multiplicerat med 104,96 %",
       "rectPt": {
         "llx": 314.33,
         "lly": 543.16,
@@ -437,6 +482,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Gränsbelopp enligt förenklingsregeln",
       "rectPt": {
         "llx": 314.33,
         "lly": 519.34,
@@ -472,6 +518,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vid avyttring eller gåva innan utdelningstillfället (eller då utdelning inte sker avyttringsåret) gränsbelopp som är hänförligt till de överlåtna andelarna",
       "rectPt": {
         "llx": 314.33,
         "lly": 495.25,
@@ -507,6 +554,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Gränsbelopp att utnyttja vid punkt 1.7 nedan",
       "rectPt": {
         "llx": 314.33,
         "lly": 470.81,
@@ -542,6 +590,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning",
       "rectPt": {
         "llx": 314.33,
         "lly": 423,
@@ -577,6 +626,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Gränsbeloppet enligt punkt 1.5 ovan",
       "rectPt": {
         "llx": 314.33,
         "lly": 399.19,
@@ -612,6 +662,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning som beskattas i tjänst (max 7 254 000 kr)",
       "rectPt": {
         "llx": 314.33,
         "lly": 363.18,
@@ -647,6 +698,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Sparat utdelningsutrymme",
       "rectPt": {
         "llx": 314.33,
         "lly": 327.18,
@@ -682,6 +734,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vid delavyttring eller gåva efter utdelningstillfället: sparat utdelningsutrymme som är hänförligt till de överlåtna andelarna enligt punkt 3.7a",
       "rectPt": {
         "llx": 314.33,
         "lly": 291.18,
@@ -717,6 +770,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Sparat utdelningsutrymme till nästa år",
       "rectPt": {
         "llx": 314.33,
         "lly": 267.12,
@@ -752,6 +806,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning",
       "rectPt": {
         "llx": 314.33,
         "lly": 220.44,
@@ -787,6 +842,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Belopp som beskattas i tjänst enligt punkt 1.8 ovan (max 7 254 000 kr)",
       "rectPt": {
         "llx": 314.33,
         "lly": 196.63,
@@ -822,6 +878,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning i kapital",
       "rectPt": {
         "llx": 314.33,
         "lly": 172.82,
@@ -857,6 +914,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppet i punkt 1.5 multiplicerat med 2/3. Om beloppet i punkt 1.5 är större än utdelningen i punkt 1.14 tas istället 2/3 av utdelningen i punkt 1.14 upp.",
       "rectPt": {
         "llx": 314.33,
         "lly": 125.01,
@@ -892,6 +950,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Resterande utdelning (punkt 1.14 minus punkt 1.5). Beloppet kan inte bli lägre än 0 kr.",
       "rectPt": {
         "llx": 314.33,
         "lly": 101.19,
@@ -927,6 +986,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning som ska tas upp i kapital",
       "rectPt": {
         "llx": 314.33,
         "lly": 77.38,
@@ -962,6 +1022,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": null,
       "rectPt": {
         "llx": 430.95,
         "lly": 789.3,
@@ -997,6 +1058,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp vid årets ingång (alternativt omräknat omkostnadsbelopp) multiplicerat med 10,96 %",
       "rectPt": {
         "llx": 314.28,
         "lly": 741.3,
@@ -1032,6 +1094,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lönebaserat utrymme enligt avsnitt D punkt 6.11",
       "rectPt": {
         "llx": 314.28,
         "lly": 717.3,
@@ -1067,6 +1130,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Sparat utdelningsutrymme från föregående år multiplicerat med 104,96 %",
       "rectPt": {
         "llx": 314.28,
         "lly": 693.29,
@@ -1102,6 +1166,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Gränsbelopp enligt huvudregeln",
       "rectPt": {
         "llx": 314.28,
         "lly": 669.46,
@@ -1137,6 +1202,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "2.5 Vid avyttring eller gåva innan utdelningstillfället (eller då utdelning inte sker avyttringsåret): gränsbelopp som är hänförligt till de överlåtna andelarna",
       "rectPt": {
         "llx": 314.28,
         "lly": 645.26,
@@ -1172,6 +1238,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Gränsbelopp att utnyttja vid punkt 2.8 nedan",
       "rectPt": {
         "llx": 314.28,
         "lly": 621.26,
@@ -1207,6 +1274,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning ",
       "rectPt": {
         "llx": 314.33,
         "lly": 573.41,
@@ -1242,6 +1310,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Gränsbeloppet enligt punkt 2.6 ovan",
       "rectPt": {
         "llx": 314.33,
         "lly": 549.6,
@@ -1277,6 +1346,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning som beskattas i tjänst (max 7 254 000 kr)",
       "rectPt": {
         "llx": 314.33,
         "lly": 525.78,
@@ -1312,6 +1382,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Sparat utdelningsutrymme",
       "rectPt": {
         "llx": 314.33,
         "lly": 501.97,
@@ -1347,6 +1418,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vid delavyttring eller gåva efter utdelningstillfället: sparat utdelningsutrymme som är hänförligt till de överlåtna andelarna enligt punkt 3.7a",
       "rectPt": {
         "llx": 314.33,
         "lly": 477.97,
@@ -1382,6 +1454,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Sparat utdelningsutrymme till nästa år",
       "rectPt": {
         "llx": 314.33,
         "lly": 453.94,
@@ -1417,6 +1490,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": " Utdelning",
       "rectPt": {
         "llx": 314.28,
         "lly": 405.1,
@@ -1452,6 +1526,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Belopp som beskattas i tjänst enligt punkt 2.9 ovan (max 7 254 000 kr)",
       "rectPt": {
         "llx": 314.28,
         "lly": 381.27,
@@ -1487,6 +1562,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning i kapital",
       "rectPt": {
         "llx": 314.28,
         "lly": 357.1,
@@ -1522,6 +1598,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppet i punkt 2.6 multiplicerat med 2/3. Om beloppet i punkt 2.6 är större än utdelningen i punkt 2.15 tas istället 2/3 av utdelningen i punkt 2.15 upp.",
       "rectPt": {
         "llx": 314.28,
         "lly": 309.1,
@@ -1557,6 +1634,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Resterande utdelning (punkt 2.15 minus punkt 2.6). Beloppet kan inte bli lägre än 0 kr.",
       "rectPt": {
         "llx": 314.28,
         "lly": 285.09,
@@ -1592,6 +1670,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Utdelning som ska tas upp i kapital",
       "rectPt": {
         "llx": 314.28,
         "lly": 261.09,
@@ -1627,6 +1706,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Delägarens personnummer",
       "rectPt": {
         "llx": 430.95,
         "lly": 789.3,
@@ -1662,6 +1742,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Antal sålda andelar",
       "rectPt": {
         "llx": 42.16,
         "lly": 729.27,
@@ -1697,6 +1778,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningsdatum - välj datum i kalendern för aktuellt försäljningsdatum eller ange datum med fyra siffror för år, två siffror för månad och två siffror för dag.",
       "rectPt": {
         "llx": 128.55,
         "lly": 729.3,
@@ -1732,6 +1814,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus utgifter för avyttring",
       "rectPt": {
         "llx": 314.33,
         "lly": 705.46,
@@ -1767,6 +1850,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Verkligt omkostnadsbelopp",
       "rectPt": {
         "llx": 314.33,
         "lly": 681.65,
@@ -1802,6 +1886,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst",
       "rectPt": {
         "llx": 314.33,
         "lly": 657.84,
@@ -1837,6 +1922,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust",
       "rectPt": {
         "llx": 314.33,
         "lly": 634.03,
@@ -1872,6 +1958,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Förlust i punkt 3.4a multiplicerat med 2/3",
       "rectPt": {
         "llx": 314.33,
         "lly": 610.21,
@@ -1907,6 +1994,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ersättning minus utgifter för avyttring (samma som punkt 3.1 ovan)",
       "rectPt": {
         "llx": 314.33,
         "lly": 561.17,
@@ -1942,6 +2030,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Omkostnadsbelopp (alternativt omräknat omkostnadsbelopp)",
       "rectPt": {
         "llx": 314.33,
         "lly": 537.36,
@@ -1977,6 +2066,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Om utdelning erhållits under året och innan avyttring: sparat utdelningsutrymme enligt punkt 1.9 eller 2.10 ovan, till den del det hör till de överlåtna andelarna",
       "rectPt": {
         "llx": 314.33,
         "lly": 501.36,
@@ -2012,6 +2102,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Om utdelning erhållits efter delavyttring eller utdelning inte erhållits under året: gränsbelopp enligt punkt 1.4 eller punkt 2.5",
       "rectPt": {
         "llx": 314.33,
         "lly": 477.54,
@@ -2047,6 +2138,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skattepliktig vinst som ska beskattas i tjänst (max 8 060 000 kr)",
       "rectPt": {
         "llx": 314.33,
         "lly": 453.73,
@@ -2082,6 +2174,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst enligt punkt 3.3 ovan",
       "rectPt": {
         "llx": 314.33,
         "lly": 405.2,
@@ -2117,6 +2210,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Belopp som beskattas i tjänst enligt punkt 3.8 (max 8 060 000 kr)",
       "rectPt": {
         "llx": 314.33,
         "lly": 381.39,
@@ -2152,6 +2246,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst i inkomstslaget kapital",
       "rectPt": {
         "llx": 314.33,
         "lly": 357.58,
@@ -2187,6 +2282,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Belopp antingen enligt punkt 3.7a multiplicerat med 2/3 eller punkt 3.7b multiplicerat med 2/3. Om beloppet i punkt 3.7a eller punkt 3.7b är större än vinsten i punkt 3.11 tas istället 2/3 av vinsten i punkt 3.11 upp.",
       "rectPt": {
         "llx": 314.33,
         "lly": 297.26,
@@ -2222,6 +2318,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Resterande vinst (punkt 3.11 minus antingen punkt 3.7a eller punkt 3.7b). Beloppet kan inte bli lägre än 0 kr.",
       "rectPt": {
         "llx": 314.33,
         "lly": 273.15,
@@ -2257,6 +2354,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinst som ska tas upp i inkomstslaget kapital",
       "rectPt": {
         "llx": 314.33,
         "lly": 249.34,
@@ -2292,6 +2390,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": " Den i avsnitt B redovisade överlåtelsen avser avyttring (ej efterföljande byte) av andelar som har förvärvats genom \n andelsbyte eller partiell fission.",
       "rectPt": {
         "llx": 42.18,
         "lly": 203.05,
@@ -2323,6 +2422,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "4.1 Det omräknade omkostnadsbeloppet har beräknats enligt Indexregeln (andelar anskaffade före 1990)",
       "rectPt": {
         "llx": 42.18,
         "lly": 115.79,
@@ -2354,6 +2454,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "4.2 Det omräknade omkostnadsbeloppet har beräknats enligt Kapitalunderlagsregeln (andelar anskaffade före 1992)",
       "rectPt": {
         "llx": 42.18,
         "lly": 91.79,
@@ -2385,6 +2486,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Delägarens personnummer",
       "rectPt": {
         "llx": 430.95,
         "lly": 789.3,
@@ -2420,6 +2522,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lönekravet uppfylls av närstående (ange personnummer)",
       "rectPt": {
         "llx": 301.35,
         "lly": 675.29,
@@ -2455,6 +2558,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lönekravet uppfylls genom eget löneuttag. 5.1 Din kontanta ersättning från företaget och dess dotterföretag under 2024",
       "rectPt": {
         "llx": 301.35,
         "lly": 627.29,
@@ -2490,6 +2594,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lönekravet uppfylls genom eget löneuttag. 5.2 Sammanlagd kontant ersättning i företaget och dess dotterföretag under 2024",
       "rectPt": {
         "llx": 301.35,
         "lly": 603.29,
@@ -2525,6 +2630,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Punkt 5.2 multiplicerat med 5% adderat med 457 200 kr",
       "rectPt": {
         "llx": 301.35,
         "lly": 579.28,
@@ -2560,6 +2666,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer för dotterföretag",
       "rectPt": {
         "llx": 171.75,
         "lly": 513.28,
@@ -2595,6 +2702,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer för dotterföretag",
       "rectPt": {
         "llx": 301.35,
         "lly": 513.28,
@@ -2630,6 +2738,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer för dotterföretag",
       "rectPt": {
         "llx": 430.95,
         "lly": 513.28,
@@ -2665,6 +2774,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Kontant ersättning till arbetstagare under 2024",
       "rectPt": {
         "llx": 314.33,
         "lly": 453.28,
@@ -2700,6 +2810,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Kontant ersättning under 2024 till arbetstagare i dotterföretag i förhållande till moderföretagets ägda andel och innehavstid under 2021",
       "rectPt": {
         "llx": 314.33,
         "lly": 429.28,
@@ -2735,6 +2846,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Löneunderlag",
       "rectPt": {
         "llx": 314.33,
         "lly": 405.27,
@@ -2770,6 +2882,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Företagets lönebaserade utrymme (Löneunderlag enligt punkt 6.3 ",
       "rectPt": {
         "llx": 314.33,
         "lly": 381.27,
@@ -2805,6 +2918,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ditt lönebaserade utrymme för andelar ägda under hela 2023",
       "rectPt": {
         "llx": 314.33,
         "lly": 345.27,
@@ -2840,6 +2954,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Kontant ersättning till arbetstagare som betalats ut under den del av 2024 som andelarna ägts",
       "rectPt": {
         "llx": 314.33,
         "lly": 302.08,
@@ -2875,6 +2990,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Kontant ersättning under 2024 till arbetstagare i dotterföretag i förhållande till moderföretagets ägda andel och innehavstid under 2021",
       "rectPt": {
         "llx": 314.33,
         "lly": 270.9,
@@ -2910,6 +3026,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Löneunderlag avseende den tid under 2024 som andelarna ägts",
       "rectPt": {
         "llx": 314.33,
         "lly": 246.9,
@@ -2945,6 +3062,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Företagets lönebaserade utrymme avseende den tid under 2024 andelarna ägts (Löneunderlag enligt punkt 6.8 multiplicerat med 50 %)",
       "rectPt": {
         "llx": 314.31,
         "lly": 215.72,
@@ -2980,6 +3098,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ditt lönebaserade utrymme för andelar som anskaffats under 2024",
       "rectPt": {
         "llx": 314.33,
         "lly": 167.72,
@@ -3015,6 +3134,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Totalt lönebaserat utrymme (punkt 6.5 plus 6.10)",
       "rectPt": {
         "llx": 314.33,
         "lly": 143.72,

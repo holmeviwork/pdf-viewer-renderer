@@ -1,7 +1,7 @@
 {
   "source": "assets/2002_33_web_2025-01-01_2025-12-31.pdf",
   "file": "2002_33_web_2025-01-01_2025-12-31.pdf",
-  "generatedAt": "2026-09-11T19:37:25.750Z",
+  "generatedAt": "2026-09-15T09:43:42.345Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,33 +15,77 @@
     "issued": "20224-04-30",
     "creator": "Skatteverket",
     "title": "Inkomstdeklaration 2 Aktiebolag, ekonomisk förening m.fl. INK2 SKV 2002",
-    "templateVersionRef": "01 (/template/subform[1])"
+    "templateVersionRef": "01 (/template/subform[1])",
+    "rubrik1": "Inkomstdeklaration 2",
+    "rubrik2": "Aktiebolag, ekonomisk förening m.fl.",
+    "myndighet": "SKV",
+    "formularid": "2002",
+    "utgava": "33",
+    "formularversion": "01",
+    "konstruktionsdatum": "2024-04-30"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2002",
+      "utgava": "33",
+      "formularversion": "01",
+      "konstruktionsdatum": "2024-04-30",
+      "year_yy": "24",
+      "month_mm": "04"
+    },
+    "base_string": "SKV2002-33-01-24-04",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "INK2",
+        "filename": "INK2_SKV2002-33-01-24-04.xls"
+      },
+      {
+        "section": "INK2R",
+        "filename": "INK2R_SKV2002-33-01-24-04.xls"
+      },
+      {
+        "section": "INK2S",
+        "filename": "INK2S_SKV2002-33-01-24-04.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": "INK2M-1-33-2025P4"
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     },
     {
       "index": 2,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida2",
+      "hiddenPageBarcode": "INK2RM-1-33-2025P4"
     },
     {
       "index": 3,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida2",
+      "hiddenPageBarcode": "INK2RM-2-33-2025P4"
     },
     {
       "index": 4,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida3",
+      "hiddenPageBarcode": "INK2SM-1-33-2025P4"
     }
   ],
   "fields": [
@@ -61,6 +105,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 301.36,
         "lly": 771.26,
@@ -96,6 +141,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Namn",
       "rectPt": {
         "llx": 337.35,
         "lly": 723.39,
@@ -131,6 +177,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Namn rad 2",
       "rectPt": {
         "llx": 337.35,
         "lly": 712.62,
@@ -166,6 +213,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Adressrad 1",
       "rectPt": {
         "llx": 337.35,
         "lly": 701.85,
@@ -201,6 +249,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Adressrad 2",
       "rectPt": {
         "llx": 337.35,
         "lly": 691.08,
@@ -236,6 +285,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Postkod och postort",
       "rectPt": {
         "llx": 337.35,
         "lly": 680.31,
@@ -271,6 +321,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Land",
       "rectPt": {
         "llx": 337.35,
         "lly": 669.53,
@@ -306,6 +357,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Datum när blanketten fylls i",
       "rectPt": {
         "llx": 42.16,
         "lly": 627.29,
@@ -341,6 +393,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.1 Överskott av näringsverksamhet",
       "rectPt": {
         "llx": 171.75,
         "lly": 566.07,
@@ -376,6 +429,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.2 Underskott av näringsverksamhet",
       "rectPt": {
         "llx": 171.75,
         "lly": 534.89,
@@ -411,6 +465,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.3 Underlag för riskskatt, kreditinstitut",
       "rectPt": {
         "llx": 171.75,
         "lly": 474,
@@ -433,7 +488,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subSida1[0].subVanster_Hoger[0].subInkomstskatt[0].subUnderLoneSkatt[0].subRad14[0].txt7132[0]",
       "page": 0,
-      "description": "1.4 Underlag för särskild löne-&#xD;      skatt på pensionskostnader",
+      "description": "1.4 Underlag för särskild löne-\r      skatt på pensionskostnader",
       "ruta": "1.4",
       "picture": null,
       "valueType": null,
@@ -446,6 +501,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.4 Underlag för särskild löne-\r      skatt på pensionskostnader",
       "rectPt": {
         "llx": 171.75,
         "lly": 412.26,
@@ -468,7 +524,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subSida1[0].subVanster_Hoger[0].subInkomstskatt[0].subUnderLoneSkatt[0].subRad15[0].txt7133[0]",
       "page": 0,
-      "description": "1.5 Negativt underlag för särskild &#xD;      löneskatt på pensionskostnader",
+      "description": "1.5 Negativt underlag för särskild \r      löneskatt på pensionskostnader",
       "ruta": "1.5",
       "picture": null,
       "valueType": null,
@@ -481,6 +537,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.5 Negativt underlag för särskild \r      löneskatt på pensionskostnader",
       "rectPt": {
         "llx": 171.75,
         "lly": 381.08,
@@ -516,6 +573,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.6 a Underlag för avkastningsskatt  Försäkringsföretag m.fl. samt avsatt till pensioner 15 %",
       "rectPt": {
         "llx": 171.75,
         "lly": 318.21,
@@ -551,6 +609,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.6 b Underlag för avkastningsskatt Utländska pensionsförsäkringar 15 %",
       "rectPt": {
         "llx": 171.75,
         "lly": 287.03,
@@ -573,7 +632,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subSida1[0].subVanster_Hoger[0].subInkomstskatt[0].subAvkastnSkatt[0].subRad17a[0].txt7152[0]",
       "page": 0,
-      "description": "1.7 a Underlag för avkastnings-&#xD;         skatt  försäkringsföretag m.fl. 30 %",
+      "description": "1.7 a Underlag för avkastnings-\r         skatt  försäkringsföretag m.fl. 30 %",
       "ruta": "1.7",
       "picture": null,
       "valueType": null,
@@ -586,6 +645,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.7 a Underlag för avkastnings-\r         skatt  försäkringsföretag m.fl. 30 %",
       "rectPt": {
         "llx": 171.75,
         "lly": 255.85,
@@ -608,7 +668,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subSida1[0].subVanster_Hoger[0].subInkomstskatt[0].subAvkastnSkatt[0].subRad17b[0].txt7151[0]",
       "page": 0,
-      "description": "1.7 b Underlag för avkastnings-&#xD;         skatt  utländska&#xD;         kapitalförsäkringar 30 %",
+      "description": "1.7 b Underlag för avkastnings-\r         skatt  utländska\r         kapitalförsäkringar 30 %",
       "ruta": "1.7",
       "picture": null,
       "valueType": null,
@@ -621,6 +681,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.7 b Underlag för avkastnings-\r         skatt  utländska\r         kapitalförsäkringar 30 %",
       "rectPt": {
         "llx": 171.75,
         "lly": 224.67,
@@ -656,6 +717,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.8 Småhus/ägarlägenhet helavgift",
       "rectPt": {
         "llx": 429.71,
         "lly": 566.07,
@@ -691,6 +753,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.9 Hyreshus: bostäder helavgift",
       "rectPt": {
         "llx": 429.71,
         "lly": 534.89,
@@ -713,7 +776,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subSida1[0].subVanster_Hoger[0].subFastighetsskatt[0].subUnderlFastSkatt[0].subRad110[0].txt84[0]",
       "page": 0,
-      "description": "1.10 Småhus/ägarlägenhet&#xD; tomtmark, byggnad under uppförande",
+      "description": "1.10 Småhus/ägarlägenhet\r tomtmark, byggnad under uppförande",
       "ruta": "1.10",
       "picture": null,
       "valueType": null,
@@ -726,6 +789,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.10 Småhus/ägarlägenhet\r tomtmark, byggnad under uppförande",
       "rectPt": {
         "llx": 429.71,
         "lly": 474,
@@ -761,6 +825,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.11 Hyreshus: tomtmark, bostäder under uppförande ",
       "rectPt": {
         "llx": 429.71,
         "lly": 442.82,
@@ -796,6 +861,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.12 Hyreshus: lokaler",
       "rectPt": {
         "llx": 429.71,
         "lly": 411.64,
@@ -831,6 +897,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.13 Industrienhet och elproduktionsenhet: värmekraftverk ",
       "rectPt": {
         "llx": 429.71,
         "lly": 380.46,
@@ -866,6 +933,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.14 Elproduktionsenhet:           vattenkraftverk ",
       "rectPt": {
         "llx": 429.71,
         "lly": 349.28,
@@ -888,7 +956,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].subSida1[0].subVanster_Hoger[0].subFastighetsskatt[0].subUnderlFastSkatt[0].subRad115[0].txt98[0]",
       "page": 0,
-      "description": "1.15 Elproduktionsenhet: &#xD;        vindkraftverk",
+      "description": "1.15 Elproduktionsenhet: \r        vindkraftverk",
       "ruta": "1.15",
       "picture": null,
       "valueType": null,
@@ -901,6 +969,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.15 Elproduktionsenhet: \r        vindkraftverk",
       "rectPt": {
         "llx": 429.71,
         "lly": 318.1,
@@ -936,6 +1005,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "1.16 Underlag för skattereduktion, förnybar el",
       "rectPt": {
         "llx": 429.71,
         "lly": 255.79,
@@ -971,6 +1041,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Namnförtydligande",
       "rectPt": {
         "llx": 42.16,
         "lly": 81.06,
@@ -1006,6 +1077,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Telefonnummer",
       "rectPt": {
         "llx": 286.95,
         "lly": 81.06,
@@ -1041,6 +1113,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa här om övrig upplysning lämnats (t.ex begäran om avräkning av utländsk skatt)",
       "rectPt": {
         "llx": 431.24,
         "lly": 122.43,
@@ -1072,6 +1145,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 301.36,
         "lly": 741.3,
@@ -1107,6 +1181,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Datum när blanketten fylls i",
       "rectPt": {
         "llx": 430.96,
         "lly": 741.3,
@@ -1129,7 +1204,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad21[0].txt7201[0]",
       "page": 2,
-      "description": "Immateriella anläggningstillgångar&#xD;2.1 Koncessioner, patent, licenser,&#xD;      varumärken, hyresrätter, goodwill &#xD;      och liknande rättigheter",
+      "description": "Immateriella anläggningstillgångar\r2.1 Koncessioner, patent, licenser,\r      varumärken, hyresrätter, goodwill \r      och liknande rättigheter",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1142,6 +1217,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Immateriella anläggningstillgångar\r2.1 Koncessioner, patent, licenser,\r      varumärken, hyresrätter, goodwill \r      och liknande rättigheter",
       "rectPt": {
         "llx": 207.76,
         "lly": 681.2,
@@ -1164,7 +1240,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad22[0].txt7202[0]",
       "page": 2,
-      "description": "2.2 Förskott avseende immateriella &#xD;      anläggningstillgångar",
+      "description": "2.2 Förskott avseende immateriella \r      anläggningstillgångar",
       "ruta": "2.2",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1177,6 +1253,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.2 Förskott avseende immateriella \r      anläggningstillgångar",
       "rectPt": {
         "llx": 207.76,
         "lly": 657.18,
@@ -1199,7 +1276,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad23[0].txt7214[0]",
       "page": 2,
-      "description": "Materiella anläggningstillgångar&#xD;2.3 Byggnader och mark",
+      "description": "Materiella anläggningstillgångar\r2.3 Byggnader och mark",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1212,6 +1289,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Materiella anläggningstillgångar\r2.3 Byggnader och mark",
       "rectPt": {
         "llx": 207.76,
         "lly": 633.18,
@@ -1234,7 +1312,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad24[0].txt7215[0]",
       "page": 2,
-      "description": "2.4 Maskiner, inventarier och övriga &#xD;      materiella anläggningstillgångar",
+      "description": "2.4 Maskiner, inventarier och övriga \r      materiella anläggningstillgångar",
       "ruta": "2.4",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1247,6 +1325,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.4 Maskiner, inventarier och övriga \r      materiella anläggningstillgångar ",
       "rectPt": {
         "llx": 207.76,
         "lly": 609.17,
@@ -1282,6 +1361,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.5 Förbättringsutgifter på annans fastighet",
       "rectPt": {
         "llx": 207.76,
         "lly": 585.17,
@@ -1317,6 +1397,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.6 Pågående nyanläggningar och förskott avseende materiella anläggningstillgångar",
       "rectPt": {
         "llx": 207.76,
         "lly": 561.17,
@@ -1339,7 +1420,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad27[0].txt7230[0]",
       "page": 2,
-      "description": "Finansiella anläggningstillgångar&#xD;2.7 Andelar i koncernföretag",
+      "description": "Finansiella anläggningstillgångar\r2.7 Andelar i koncernföretag",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1352,6 +1433,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Finansiella anläggningstillgångar\r2.7 Andelar i koncernföretag",
       "rectPt": {
         "llx": 207.76,
         "lly": 537.17,
@@ -1374,7 +1456,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad28[0].txt7231[0]",
       "page": 2,
-      "description": "2.8 Andelar i intresseföretag och&#xD;      gemensamt styrda företag",
+      "description": "2.8 Andelar i intresseföretag och\r      gemensamt styrda företag",
       "ruta": "2.8",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1387,6 +1469,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.8 Andelar i intresseföretag och\r      gemensamt styrda företag",
       "rectPt": {
         "llx": 207.76,
         "lly": 513.17,
@@ -1409,7 +1492,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad29[0].txt7232[0]",
       "page": 2,
-      "description": "2.9 Ägarintressen i övriga företag och&#xD;andra långfristiga värdepappersinnehav",
+      "description": "2.9 Ägarintressen i övriga företag och\randra långfristiga värdepappersinnehav",
       "ruta": "2.9",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1422,6 +1505,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.9 Ägarintressen i övriga företag och\randra långfristiga värdepappersinnehav",
       "rectPt": {
         "llx": 207.76,
         "lly": 489.16,
@@ -1457,6 +1541,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.10 Fordringar hos koncern-, intresse- och gemensamt styrda företag",
       "rectPt": {
         "llx": 207.76,
         "lly": 465.16,
@@ -1492,6 +1577,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.11 Lån till delägare eller närstående ",
       "rectPt": {
         "llx": 207.76,
         "lly": 441.16,
@@ -1514,7 +1600,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subTillgangar[0].subRad212[0].txt7235[0]",
       "page": 2,
-      "description": "2.12 Fordringar hos övriga företag som&#xD;        det finns ett ägarintresse i och&#xD;        andra långfristiga fordringar",
+      "description": "2.12 Fordringar hos övriga företag som\r        det finns ett ägarintresse i och\r        andra långfristiga fordringar",
       "ruta": "2.12",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1527,6 +1613,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.12 Fordringar hos övriga företag som\r        det finns ett ägarintresse i och\r        andra långfristiga fordringar",
       "rectPt": {
         "llx": 207.76,
         "lly": 411.27,
@@ -1549,7 +1636,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subOmsattnTillg[0].subRad213[0].txt7241[0]",
       "page": 2,
-      "description": "Varulager med mera&#xD;2.13 Råvaror och förnödenheter",
+      "description": "Varulager med mera\r2.13 Råvaror och förnödenheter",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1562,6 +1649,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Varulager med mera\r2.13 Råvaror och förnödenheter",
       "rectPt": {
         "llx": 207.76,
         "lly": 363.17,
@@ -1597,6 +1685,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.14 Varor under tillverkning",
       "rectPt": {
         "llx": 207.76,
         "lly": 339.17,
@@ -1632,6 +1721,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.15 Färdiga varor och handelsvaror",
       "rectPt": {
         "llx": 207.76,
         "lly": 315.16,
@@ -1667,6 +1757,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.16 Övriga lagertillgångar",
       "rectPt": {
         "llx": 207.76,
         "lly": 291.16,
@@ -1702,6 +1793,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.17 Pågående arbeten för annans räkning",
       "rectPt": {
         "llx": 207.76,
         "lly": 267.16,
@@ -1737,6 +1829,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.18 Förskott till leverantörer",
       "rectPt": {
         "llx": 207.76,
         "lly": 243.16,
@@ -1759,7 +1852,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subOmsattnTillg[0].subRad219[0].txt7251[0]",
       "page": 2,
-      "description": "Kortfristiga fordringar&#xD;2.19 Kundfordringar",
+      "description": "Kortfristiga fordringar\r2.19 Kundfordringar",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1772,6 +1865,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Kortfristiga fordringar\r2.19 Kundfordringar",
       "rectPt": {
         "llx": 207.76,
         "lly": 219.16,
@@ -1807,6 +1901,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.20 Fordringar hos koncern-, intresse- och gemensamt styrda företag",
       "rectPt": {
         "llx": 207.76,
         "lly": 195.15,
@@ -1842,6 +1937,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.21 Fordringar hos övriga företag som det finns ett ägarintresse i och        övriga fordringar",
       "rectPt": {
         "llx": 207.75,
         "lly": 165.25,
@@ -1877,6 +1973,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.22 Upparbetad men ej fakturerad intäkt",
       "rectPt": {
         "llx": 207.76,
         "lly": 141.25,
@@ -1912,6 +2009,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.23 Förutbetalda kostnader och upplupna intäkter",
       "rectPt": {
         "llx": 207.76,
         "lly": 117.25,
@@ -1934,7 +2032,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subOmsattnTillg[0].subRad224[0].txt7270[0]",
       "page": 2,
-      "description": "Kortfristiga placeringar&#xD;2.24 Andelar i koncernföretag",
+      "description": "Kortfristiga placeringar\r2.24 Andelar i koncernföretag",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -1947,6 +2045,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Kortfristiga placeringar\r2.24 Andelar i koncernföretag",
       "rectPt": {
         "llx": 207.76,
         "lly": 93.24,
@@ -1982,6 +2081,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.25 Övriga kortfristiga placeringar",
       "rectPt": {
         "llx": 207.76,
         "lly": 69.24,
@@ -2004,7 +2104,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subOmsattnTillg[0].subRad226[0].txt7281[0]",
       "page": 2,
-      "description": "Kassa och bank&#xD;2.26 Kassa, bank och redovisningsmedel",
+      "description": "Kassa och bank\r2.26 Kassa, bank och redovisningsmedel",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2017,6 +2117,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Kassa och bank\r2.26 Kassa, bank och redovisningsmedel ",
       "rectPt": {
         "llx": 207.76,
         "lly": 45.24,
@@ -2052,6 +2153,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.27 Bundet eget kapital",
       "rectPt": {
         "llx": 474.15,
         "lly": 693.19,
@@ -2087,6 +2189,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.28 Fritt eget kapital",
       "rectPt": {
         "llx": 474.15,
         "lly": 669.29,
@@ -2109,7 +2212,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subObeskReserver[0].subRad229[0].txt7321[0]",
       "page": 2,
-      "description": "Obeskattade reserver&#xD;2.29 Periodiseringsfonder",
+      "description": "Obeskattade reserver\r2.29 Periodiseringsfonder",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2122,6 +2225,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Obeskattade reserver\r2.29 Periodiseringsfonder",
       "rectPt": {
         "llx": 474.16,
         "lly": 621.18,
@@ -2157,6 +2261,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.30 Ackumulerade överavskrivningar",
       "rectPt": {
         "llx": 474.16,
         "lly": 597.18,
@@ -2192,6 +2297,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.31 Övriga obeskattade reserver",
       "rectPt": {
         "llx": 474.16,
         "lly": 573.18,
@@ -2214,7 +2320,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subObeskReserver[0].subRad232[0].txt7331[0]",
       "page": 2,
-      "description": "Avsättningar&#xD;2.32 Avsättningar för pensioner och liknande förpliktelser enligt lag (1967:531) om tryggande av pensionsutfästelse m.m.",
+      "description": "Avsättningar\r2.32 Avsättningar för pensioner och liknande förpliktelser enligt lag (1967:531) om tryggande av pensionsutfästelse m.m.",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2227,6 +2333,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Avsättningar\r2.32 Avsättningar för pensioner och liknande förpliktelser enligt lag (1967:531) om tryggande av pensionsutfästelse m.m.",
       "rectPt": {
         "llx": 474.16,
         "lly": 537.18,
@@ -2262,6 +2369,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.33 Övriga avsättningar för pensioner och liknande förpliktelser",
       "rectPt": {
         "llx": 474.16,
         "lly": 513.18,
@@ -2297,6 +2405,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.34 Övriga avsättningar",
       "rectPt": {
         "llx": 474.16,
         "lly": 489.17,
@@ -2319,7 +2428,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subSkulder[0].subRad235[0].txt7350[0]",
       "page": 2,
-      "description": "Långfristiga skulder&#xD;2.35 Obligationslån",
+      "description": "Långfristiga skulder\r2.35 Obligationslån",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2332,6 +2441,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Långfristiga skulder\r2.35 Obligationslån",
       "rectPt": {
         "llx": 474.16,
         "lly": 441.17,
@@ -2367,6 +2477,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.36 Checkräkningskredit",
       "rectPt": {
         "llx": 474.16,
         "lly": 417.17,
@@ -2402,6 +2513,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.37 Övriga skulder till kreditinstitut",
       "rectPt": {
         "llx": 474.16,
         "lly": 393.17,
@@ -2424,7 +2536,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subSkulder[0].subRad238[0].txt7353[0]",
       "page": 2,
-      "description": "2.38 Skulder till koncern-, intresse- och&#xD;gemensamt styrda företag",
+      "description": "2.38 Skulder till koncern-, intresse- och\rgemensamt styrda företag",
       "ruta": "2.38",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2437,6 +2549,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.38 Skulder till koncern-, intresse- och\rgemensamt styrda företag",
       "rectPt": {
         "llx": 473.99,
         "lly": 368.91,
@@ -2472,6 +2585,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.39 Skulder till övriga företag som det finns ett ägarintresse i och övriga skulder ",
       "rectPt": {
         "llx": 473.99,
         "lly": 344.9,
@@ -2494,7 +2608,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subSkulder[0].subRad240[0].txt7360[0]",
       "page": 2,
-      "description": "Kortfristiga skulder&#xD;2.40 Checkräkningskredit",
+      "description": "Kortfristiga skulder\r2.40 Checkräkningskredit",
       "ruta": null,
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2507,6 +2621,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Kortfristiga skulder\r2.40 Checkräkningskredit",
       "rectPt": {
         "llx": 473.99,
         "lly": 321.16,
@@ -2542,6 +2657,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.41 Övriga skulder till kreditinstitut",
       "rectPt": {
         "llx": 474.16,
         "lly": 297.16,
@@ -2577,6 +2693,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.42 Förskott från kunder",
       "rectPt": {
         "llx": 474.16,
         "lly": 273.15,
@@ -2612,6 +2729,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.43 Pågående arbeten för annans räkning",
       "rectPt": {
         "llx": 474.16,
         "lly": 249.15,
@@ -2647,6 +2765,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.44 Fakturerad men ej upparbetad intäkt",
       "rectPt": {
         "llx": 474.16,
         "lly": 225.15,
@@ -2682,6 +2801,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.45 Leverantörsskulder",
       "rectPt": {
         "llx": 474.16,
         "lly": 201.15,
@@ -2717,6 +2837,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.46 Växelskulder",
       "rectPt": {
         "llx": 474.16,
         "lly": 177.15,
@@ -2739,7 +2860,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida2[0].subTillgangarSkulder[0].subSkulder[0].subRad247[0].txt7367[0]",
       "page": 2,
-      "description": "2.47 Skulder till koncern-, intresse- och&#xD;gemensamt styrda företag",
+      "description": "2.47 Skulder till koncern-, intresse- och\rgemensamt styrda företag",
       "ruta": "2.47",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz} | num{zzzzzzzzzzzz}",
       "valueType": null,
@@ -2752,6 +2873,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.47 Skulder till koncern-, intresse- och\rgemensamt styrda företag",
       "rectPt": {
         "llx": 474.16,
         "lly": 153.14,
@@ -2787,6 +2909,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.48 Skulder till övriga företag som det finns ett ägarintresse i och övriga skulder",
       "rectPt": {
         "llx": 474.16,
         "lly": 129.14,
@@ -2822,6 +2945,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.49 Skatteskulder",
       "rectPt": {
         "llx": 474.16,
         "lly": 105.14,
@@ -2857,6 +2981,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "2.50 Upplupna kostnader och förutbetalda intäkter",
       "rectPt": {
         "llx": 474.16,
         "lly": 81.14,
@@ -2892,6 +3017,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer",
       "rectPt": {
         "llx": 301.36,
         "lly": 777.3,
@@ -2927,6 +3053,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Datum när blanketten fylls i ",
       "rectPt": {
         "llx": 430.96,
         "lly": 777.3,
@@ -2962,6 +3089,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.1 Nettoomsättning",
       "rectPt": {
         "llx": 207.53,
         "lly": 717.3,
@@ -2984,7 +3112,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRakn[0].subRad32[0].txt7411[0]",
       "page": 3,
-      "description": "3.2 Förändring av lager av produkter i  &#xD; arbete, färdiga varor och pågående    &#xD;arbete för annans räkning - positivt belopp",
+      "description": "3.2 Förändring av lager av produkter i  \r arbete, färdiga varor och pågående    \rarbete för annans räkning - positivt belopp",
       "ruta": "3.2",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -2997,6 +3125,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.2 Förändring av lager av produkter i  \r arbete, färdiga varor och pågående    \rarbete för annans räkning - positivt belopp",
       "rectPt": {
         "llx": 207.72,
         "lly": 693.29,
@@ -3019,7 +3148,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRakn[0].subRad32[0].txt7510[0]",
       "page": 3,
-      "description": "3.2 Förändring av lager av produkter i  &#xD;arbete, färdiga varor och pågående    &#xD;arbete för annans räkning - negativt belopp",
+      "description": "3.2 Förändring av lager av produkter i  \rarbete, färdiga varor och pågående    \rarbete för annans räkning - negativt belopp",
       "ruta": "3.2",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3032,6 +3161,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.2 Förändring av lager av produkter i  \rarbete, färdiga varor och pågående    \rarbete för annans räkning - negativt belopp",
       "rectPt": {
         "llx": 207.72,
         "lly": 669.29,
@@ -3067,6 +3197,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.3 Aktiverat arbete för egen räkning",
       "rectPt": {
         "llx": 207.53,
         "lly": 645.29,
@@ -3102,6 +3233,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.4 Övriga rörelseintäkter",
       "rectPt": {
         "llx": 207.53,
         "lly": 621.29,
@@ -3137,6 +3269,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "txt7511",
       "rectPt": {
         "llx": 207.53,
         "lly": 597.28,
@@ -3172,6 +3305,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.6 Handelsvaror",
       "rectPt": {
         "llx": 207.53,
         "lly": 573.28,
@@ -3207,6 +3341,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.7 Övriga externa kostnader",
       "rectPt": {
         "llx": 207.53,
         "lly": 549.28,
@@ -3242,6 +3377,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.8 Personalkostnader",
       "rectPt": {
         "llx": 207.53,
         "lly": 525.28,
@@ -3264,7 +3400,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRakn[0].subRad39[0].txt7515[0]",
       "page": 3,
-      "description": "3.9 Av- och nedskrivningar av materiella &#xD;och immateriella anläggningstillgångar",
+      "description": "3.9 Av- och nedskrivningar av materiella \roch immateriella anläggningstillgångar",
       "ruta": "3.9",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3277,6 +3413,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.9 Av- och nedskrivningar av materiella \roch immateriella anläggningstillgångar",
       "rectPt": {
         "llx": 207.53,
         "lly": 489.27,
@@ -3299,7 +3436,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRakn[0].subRad310[0].txt7516[0]",
       "page": 3,
-      "description": "3.10 Nedskrivningar av omsättningstill-&#xD;gångar utöver normala nedskrivningar",
+      "description": "3.10 Nedskrivningar av omsättningstill-\rgångar utöver normala nedskrivningar",
       "ruta": "3.10",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3312,6 +3449,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.10 Nedskrivningar av omsättningstill-\rgångar utöver normala nedskrivningar",
       "rectPt": {
         "llx": 207.41,
         "lly": 453.27,
@@ -3347,6 +3485,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.11 Övriga rörelsekostnader",
       "rectPt": {
         "llx": 207.41,
         "lly": 429.27,
@@ -3382,6 +3521,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.12 Resultat från andelar i koncernföretag - positivt belopp",
       "rectPt": {
         "llx": 207.75,
         "lly": 405.28,
@@ -3417,6 +3557,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.12 Resultat från andelar i koncernföretag - negativt belopp",
       "rectPt": {
         "llx": 207.75,
         "lly": 381.28,
@@ -3452,6 +3593,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.13 Resultat från andelar i intresseföretag och gemensamt styrda företag - positivt belopp",
       "rectPt": {
         "llx": 207.75,
         "lly": 357.26,
@@ -3487,6 +3629,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.13 Resultat från andelar i intresseföretag och gemensamt styrda företag - negativt belopp",
       "rectPt": {
         "llx": 207.75,
         "lly": 333.26,
@@ -3522,6 +3665,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.14 Resultat från övriga företag som det  finns ett ägarintresse i - positivt belopp",
       "rectPt": {
         "llx": 207.75,
         "lly": 309.26,
@@ -3557,6 +3701,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.14 Resultat från övriga företag som det finns ett ägarintresse i - negativt belopp",
       "rectPt": {
         "llx": 207.75,
         "lly": 285.26,
@@ -3579,7 +3724,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRakn[0].subRad315[0].txt7416[0]",
       "page": 3,
-      "description": "3.15 Resultat från övriga finansiella         &#xD;anläggningstillgångar - positivt belopp",
+      "description": "3.15 Resultat från övriga finansiella         \ranläggningstillgångar - positivt belopp",
       "ruta": "3.15",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3592,6 +3737,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.15 Resultat från övriga finansiella         \ranläggningstillgångar - positivt belopp ",
       "rectPt": {
         "llx": 207.75,
         "lly": 261.25,
@@ -3614,7 +3760,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRakn[0].subRad315[0].txt7520[0]",
       "page": 3,
-      "description": "3.15 Resultat från övriga finansiella         &#xD;anläggningstillgångar - negativt belopp",
+      "description": "3.15 Resultat från övriga finansiella         \ranläggningstillgångar - negativt belopp",
       "ruta": "3.15",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3627,6 +3773,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.15 Resultat från övriga finansiella         \ranläggningstillgångar - negativt belopp ",
       "rectPt": {
         "llx": 207.75,
         "lly": 237.25,
@@ -3649,7 +3796,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRaknForts[0].subRad316[0].txt7417[0]",
       "page": 3,
-      "description": "3.16 Övriga ränteintäkter och liknande    &#xD;resultatposter",
+      "description": "3.16 Övriga ränteintäkter och liknande    \rresultatposter",
       "ruta": "3.16",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3662,6 +3809,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.16 Övriga ränteintäkter och liknande    \rresultatposter ",
       "rectPt": {
         "llx": 468.48,
         "lly": 717.3,
@@ -3697,6 +3845,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.17 Nedskrivningar av finansiella anläggningstillgångar och kortfristiga placeringar",
       "rectPt": {
         "llx": 468.48,
         "lly": 681.29,
@@ -3719,7 +3868,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRaknForts[0].subRad318[0].txt7522[0]",
       "page": 3,
-      "description": "3.18 Räntekostnader och liknande &#xD;resultatposter",
+      "description": "3.18 Räntekostnader och liknande \rresultatposter",
       "ruta": "3.18",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -3732,6 +3881,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.18 Räntekostnader och liknande \rresultatposter",
       "rectPt": {
         "llx": 468.48,
         "lly": 657.29,
@@ -3767,6 +3917,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.19 Lämnade koncernbidrag",
       "rectPt": {
         "llx": 468.48,
         "lly": 633.29,
@@ -3802,6 +3953,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.20 Mottagna koncernbidrag",
       "rectPt": {
         "llx": 468.48,
         "lly": 609.29,
@@ -3837,6 +3989,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.21 Återföring av periodiseringsfond",
       "rectPt": {
         "llx": 468.48,
         "lly": 585.29,
@@ -3872,6 +4025,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.22 Avsättning till periodiseringsfond",
       "rectPt": {
         "llx": 468.48,
         "lly": 561.28,
@@ -3907,6 +4061,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.23 Förändring av överavskrivningar - positivt belopp",
       "rectPt": {
         "llx": 468.48,
         "lly": 537.28,
@@ -3942,6 +4097,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.23 Förändring av överavskrivningar - negativt belopp",
       "rectPt": {
         "llx": 468.48,
         "lly": 513.28,
@@ -3977,6 +4133,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.24 Övriga bokslutsdispositioner - positivt belopp",
       "rectPt": {
         "llx": 468.48,
         "lly": 489.28,
@@ -4012,6 +4169,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.24 Övriga bokslutsdispositioner - negativt belopp ",
       "rectPt": {
         "llx": 468.48,
         "lly": 465.28,
@@ -4047,6 +4205,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.25 Skatt på årets resultat",
       "rectPt": {
         "llx": 468.48,
         "lly": 441.27,
@@ -4082,6 +4241,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.26 Årets resultat, vinst  (flyttas till        punkt 4.1)",
       "rectPt": {
         "llx": 468.48,
         "lly": 405.27,
@@ -4104,7 +4264,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida2[0].subSida3[0].subResultatrakning[0].subResultatRaknForts[0].subRad327[0].txt7550[0]",
       "page": 3,
-      "description": "3.27 Årets resultat, förlust (flyttas till &#xD;punkt 4.2)",
+      "description": "3.27 Årets resultat, förlust (flyttas till \rpunkt 4.2)",
       "ruta": "3.27",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -4117,6 +4277,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "3.27 Årets resultat, förlust (flyttas till \rpunkt 4.2)",
       "rectPt": {
         "llx": 468.48,
         "lly": 369.26,
@@ -4152,6 +4313,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Organisationsnummer ",
       "rectPt": {
         "llx": 301.35,
         "lly": 741.3,
@@ -4187,6 +4349,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Datum när blanketten fylls i  ",
       "rectPt": {
         "llx": 430.95,
         "lly": 741.3,
@@ -4222,6 +4385,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.1 Årets resultat, vinst",
       "rectPt": {
         "llx": 207.53,
         "lly": 693.66,
@@ -4257,6 +4421,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.2 Årets resultat, förlust",
       "rectPt": {
         "llx": 207.53,
         "lly": 669.66,
@@ -4292,6 +4457,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.3 Bokförda kostnader som inte ska dras av a) Skatt på årets resultat",
       "rectPt": {
         "llx": 207.65,
         "lly": 639.99,
@@ -4327,6 +4493,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.3 Bokförda kostnader som inte ska dras av b) Nedskrivning av finansiella tillgångar",
       "rectPt": {
         "llx": 207.65,
         "lly": 615.29,
@@ -4362,6 +4529,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.3 Bokförda kostnader som inte ska dras av c) Andra bokförda kostnader",
       "rectPt": {
         "llx": 207.65,
         "lly": 592.06,
@@ -4384,7 +4552,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad44[0].txt7751[0]",
       "page": 4,
-      "description": "4.4 Kostnader som ska dras av men som &#xD;inte ingår i det redovisade resultatet &#xD;a) Lämnade koncernbidrag",
+      "description": "4.4 Kostnader som ska dras av men som \rinte ingår i det redovisade resultatet \ra) Lämnade koncernbidrag",
       "ruta": "4.4",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -4397,6 +4565,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.4 Kostnader som ska dras av men som \rinte ingår i det redovisade resultatet \ra) Lämnade koncernbidrag ",
       "rectPt": {
         "llx": 207.75,
         "lly": 555.24,
@@ -4419,7 +4588,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad44[0].txt7764[0]",
       "page": 4,
-      "description": "4.4 Kostnader som ska dras av men som &#xD;      inte ingår i det redovisade resultatet &#xD;b) Andra ej bokförda kostnader",
+      "description": "4.4 Kostnader som ska dras av men som \r      inte ingår i det redovisade resultatet \rb) Andra ej bokförda kostnader",
       "ruta": "4.4",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -4432,6 +4601,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.4 Kostnader som ska dras av men som \r      inte ingår i det redovisade resultatet \rb) Andra ej bokförda kostnader ",
       "rectPt": {
         "llx": 207.75,
         "lly": 531.13,
@@ -4467,6 +4637,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.5 Bokförda intäkter som inte ska tas upp a) Ackordsvinster",
       "rectPt": {
         "llx": 207.75,
         "lly": 507.24,
@@ -4502,6 +4673,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.5 Bokförda intäkter som inte ska tas upp b) Utdelning",
       "rectPt": {
         "llx": 207.75,
         "lly": 483.24,
@@ -4537,6 +4709,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.5 Bokförda intäkter som inte ska tas upp c) Andra bokförda intäkter ",
       "rectPt": {
         "llx": 207.75,
         "lly": 459.23,
@@ -4559,7 +4732,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad46[0].txt7654[0]",
       "page": 4,
-      "description": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet  a) Beräknad schablonintäkt på periodiseringsfonder vid    &#xD;beskattningsårets ingång",
+      "description": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet  a) Beräknad schablonintäkt på periodiseringsfonder vid    \rbeskattningsårets ingång",
       "ruta": "4.6",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -4572,6 +4745,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet  a) Beräknad schablonintäkt på periodiseringsfonder vid    \rbeskattningsårets ingång",
       "rectPt": {
         "llx": 207.75,
         "lly": 408.44,
@@ -4607,6 +4781,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet b) Beräknad schablonintäkt på fondandelar ägda vid kalenderårets ingång",
       "rectPt": {
         "llx": 207.75,
         "lly": 375.27,
@@ -4642,6 +4817,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet c) Mottagna koncernbidrag",
       "rectPt": {
         "llx": 207.75,
         "lly": 351.27,
@@ -4664,7 +4840,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad46[0].txt7667[0]",
       "page": 4,
-      "description": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet d) Uppräknat belopp vid återföring av&#xD;periodiseringsfond",
+      "description": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet d) Uppräknat belopp vid återföring av\rperiodiseringsfond",
       "ruta": "4.6",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -4677,6 +4853,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet d) Uppräknat belopp vid återföring av\rperiodiseringsfond",
       "rectPt": {
         "llx": 207.76,
         "lly": 327.27,
@@ -4712,6 +4889,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.6 Intäkter som ska tas upp men som inte ingår i det redovisade resultatet e) andra ej bokförda intäkter",
       "rectPt": {
         "llx": 207.76,
         "lly": 303.27,
@@ -4747,6 +4925,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.7 Avyttring av delägarrätter a) Bokförd vinst",
       "rectPt": {
         "llx": 207.75,
         "lly": 279.26,
@@ -4782,6 +4961,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.7 Avyttring av delägarrätter b) Bokförd förlust",
       "rectPt": {
         "llx": 207.76,
         "lly": 255.26,
@@ -4804,7 +4984,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad47[0].txt7756[0]",
       "page": 4,
-      "description": "4.7 Avyttring av delägarrätter c) Uppskov med kapitalvinst enligt       &#xD;blankett N4",
+      "description": "4.7 Avyttring av delägarrätter c) Uppskov med kapitalvinst enligt       \rblankett N4",
       "ruta": "4.7",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -4817,6 +4997,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.7 Avyttring av delägarrätter c) Uppskov med kapitalvinst enligt       \rblankett N4",
       "rectPt": {
         "llx": 207.76,
         "lly": 231.26,
@@ -4852,6 +5033,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.7 Avyttring av delägarrätter d) Återfört uppskov av kapitalvinst enligt blankett N4",
       "rectPt": {
         "llx": 207.76,
         "lly": 207.26,
@@ -4887,6 +5069,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.7 Avyttring av delägarrätter e) Kapitalvinst för beskattningsåret",
       "rectPt": {
         "llx": 207.76,
         "lly": 183.26,
@@ -4922,6 +5105,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.7 Avyttring av delägarrätter f) Kapitalförlust som ska dras av ",
       "rectPt": {
         "llx": 207.76,
         "lly": 159.26,
@@ -4957,6 +5141,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.8 Andel i handelsbolag (inkl. avyttring) a) Bokförd intäkt/vinst",
       "rectPt": {
         "llx": 207.76,
         "lly": 135.25,
@@ -4992,6 +5177,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.8 Andel i handelsbolag (inkl. avyttring) b) Skattemässigt överskott enligt N3B",
       "rectPt": {
         "llx": 207.76,
         "lly": 111.25,
@@ -5027,6 +5213,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.8 Andel i handelsbolag (inkl. avyttring) c) Bokförd kostnad/förlust",
       "rectPt": {
         "llx": 207.76,
         "lly": 87.25,
@@ -5062,6 +5249,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.8 Andel i handelsbolag (inkl. avyttring) d) Skattemässigt underskott enligt N3B",
       "rectPt": {
         "llx": 207.76,
         "lly": 63.25,
@@ -5084,7 +5272,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad49[0].txt7666[0]",
       "page": 4,
-      "description": "4.9 Skattemässig justering av bokfört     &#xD;resultat för avskrivning på byggnader &#xD;och annan fast egendom samt vid rest-&#xD;värdesavskrivning på maskiner och   &#xD;inventarier - positivt belopp",
+      "description": "4.9 Skattemässig justering av bokfört     \rresultat för avskrivning på byggnader \roch annan fast egendom samt vid rest-\rvärdesavskrivning på maskiner och   \rinventarier - positivt belopp",
       "ruta": "4.9",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5097,6 +5285,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.9 Skattemässig justering av bokfört     \rresultat för avskrivning på byggnader \roch annan fast egendom samt vid rest-\rvärdesavskrivning på maskiner och   \rinventarier - positivt belopp",
       "rectPt": {
         "llx": 207.76,
         "lly": 39.09,
@@ -5119,7 +5308,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subVanster[0].subRad49[0].txt7765[0]",
       "page": 4,
-      "description": "4.9 Skattemässig justering av bokfört     &#xD;resultat för avskrivning på byggnader &#xD;och annan fast egendom samt vid rest-&#xD;värdesavskrivning på maskiner och   &#xD;inventarier - negativt belopp",
+      "description": "4.9 Skattemässig justering av bokfört     \rresultat för avskrivning på byggnader \roch annan fast egendom samt vid rest-\rvärdesavskrivning på maskiner och   \rinventarier - negativt belopp",
       "ruta": "4.9",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5132,6 +5321,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.9 Skattemässig justering av bokfört     \rresultat för avskrivning på byggnader \roch annan fast egendom samt vid rest-\rvärdesavskrivning på maskiner och   \rinventarier - negativt belopp",
       "rectPt": {
         "llx": 207.76,
         "lly": 15.32,
@@ -5167,6 +5357,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.10 Skattemässig justering av bokfört resultat vid avyttring av näringsfastighet och näringsbostadsrätt - positivt belopp",
       "rectPt": {
         "llx": 475.46,
         "lly": 693.29,
@@ -5202,6 +5393,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.10 Skattemässig justering av bokfört resultat vid avyttring av näringsfastighet och näringsbostadsrätt - negativt belopp",
       "rectPt": {
         "llx": 475.46,
         "lly": 669.29,
@@ -5224,7 +5416,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subRad411[0].txt7761[0]",
       "page": 4,
-      "description": "4.11 Skogs-/substansminskningsavdrag  &#xD;(specificeras på blankett N8)",
+      "description": "4.11 Skogs-/substansminskningsavdrag  \r(specificeras på blankett N8)",
       "ruta": "4.11",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5237,6 +5429,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.11 Skogs-/substansminskningsavdrag  \r(specificeras på blankett N8)",
       "rectPt": {
         "llx": 475.46,
         "lly": 645.29,
@@ -5259,7 +5452,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subRad412[0].txt7662[0]",
       "page": 4,
-      "description": "4.12 Återföringar vid avyttring av fastighet,  t.ex. värdeminskningsavdrag, skogsavdrag och substansminskningsavdrag  &#xD;(skogs- och substansminskningsav-&#xD;drag redovisas även på N8)",
+      "description": "4.12 Återföringar vid avyttring av fastighet,  t.ex. värdeminskningsavdrag, skogsavdrag och substansminskningsavdrag  \r(skogs- och substansminskningsav-\rdrag redovisas även på N8)",
       "ruta": "4.12",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5272,6 +5465,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.12 Återföringar vid avyttring av fastighet,  t.ex. värdeminskningsavdrag, skogsavdrag och substansminskningsavdrag  \r(skogs- och substansminskningsav-\rdrag redovisas även på N8)",
       "rectPt": {
         "llx": 475.46,
         "lly": 585.28,
@@ -5294,7 +5488,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subRad413[0].subHoger[0].txt7663[0]",
       "page": 4,
-      "description": "4.13 Andra skattemässiga justeringar av&#xD;resultatet - positivt belopp",
+      "description": "4.13 Andra skattemässiga justeringar av\rresultatet - positivt belopp",
       "ruta": "4.13",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5307,6 +5501,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.13 Andra skattemässiga justeringar av\rresultatet - positivt belopp",
       "rectPt": {
         "llx": 475.46,
         "lly": 561.28,
@@ -5329,7 +5524,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subRad413[0].subHoger[0].txt7762[0]",
       "page": 4,
-      "description": "4.13 Andra skattemässiga justeringar av&#xD;resultatet - negativt belopp",
+      "description": "4.13 Andra skattemässiga justeringar av\rresultatet - negativt belopp",
       "ruta": "4.13",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5342,6 +5537,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.13 Andra skattemässiga justeringar av\rresultatet - negativt belopp",
       "rectPt": {
         "llx": 475.46,
         "lly": 537.27,
@@ -5377,6 +5573,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.14 Underskott a) Outnyttjat underskott från föregående år",
       "rectPt": {
         "llx": 475.68,
         "lly": 501.27,
@@ -5412,6 +5609,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.14 Underskott b) Reduktion av outnyttjat underskott med hänsyn till beloppsspärr,  ackord, konkurs med mera",
       "rectPt": {
         "llx": 475.68,
         "lly": 465.27,
@@ -5447,6 +5645,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.14 Underskott c) Reduktion av outnyttjat underskott  med hänsyn till koncernbidragsspärr, fusionsspärr m.m. (beloppet ska också tas upp vid punkt 1.2. på sid. 1)",
       "rectPt": {
         "llx": 475.68,
         "lly": 426.44,
@@ -5469,7 +5668,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subRad415[0].txt7670[0]",
       "page": 4,
-      "description": "4.15 Överskott (flyttas till  punkt 1.1 på&#xD;sid. 1)",
+      "description": "4.15 Överskott (flyttas till  punkt 1.1 på\rsid. 1)",
       "ruta": "4.15",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5482,6 +5681,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.15 Överskott (flyttas till  punkt 1.1 på\rsid. 1)",
       "rectPt": {
         "llx": 475.68,
         "lly": 402.43,
@@ -5517,6 +5717,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.16 Underskott (flyttas till  punkt 1.2 på sid. 1)",
       "rectPt": {
         "llx": 475.68,
         "lly": 378.42,
@@ -5552,6 +5753,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.17 Årets begärda och tidigare års medgivna värdeminskningsavdrag som finns vid beskattningsårets utgång avseende byggnader",
       "rectPt": {
         "llx": 475.46,
         "lly": 312.63,
@@ -5587,6 +5789,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.18 Årets begärda och tidigare års medgivna värdeminskningsavdrag som finns vid beskattningsårets utgång avseende markanläggningar",
       "rectPt": {
         "llx": 475.46,
         "lly": 274.96,
@@ -5609,7 +5812,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subOvrigaUppgifter[0].subRad419[0].txt8023[0]",
       "page": 4,
-      "description": "4.19 Vid restvärdesavskrivning:&#xD;återförda belopp för av- och nedskrivning, försäljning, utrangering",
+      "description": "4.19 Vid restvärdesavskrivning:\råterförda belopp för av- och nedskrivning, försäljning, utrangering",
       "ruta": "4.19",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5622,6 +5825,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.19 Vid restvärdesavskrivning:\råterförda belopp för av- och nedskrivning, försäljning, utrangering ",
       "rectPt": {
         "llx": 475.46,
         "lly": 238.96,
@@ -5644,7 +5848,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida3[0].subSida4[0].subSkattemassigaJusteringar[0].subHoger[0].subOvrigaUppgifter[0].subRad420[0].txt8026[0]",
       "page": 4,
-      "description": "4.20 Lån från aktieägare (fysisk person)&#xD;vid beskattningsårets utgång",
+      "description": "4.20 Lån från aktieägare (fysisk person)\rvid beskattningsårets utgång",
       "ruta": "4.20",
       "picture": "num{z} | num{zz} | num{zzz} | num{z zzz} | num{zz zzz} | num{zzz zzz} | num{z zzz zzz} | num{zz zzz zzz} | num{zzz zzz zzz} | num{zzzzzzzzzz} | num{zzzzzzzzzzz}",
       "valueType": null,
@@ -5657,6 +5861,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.20 Lån från aktieägare (fysisk person)\rvid beskattningsårets utgång",
       "rectPt": {
         "llx": 475.46,
         "lly": 214.96,
@@ -5692,6 +5897,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.21 Pensionskostnader (som ingår i punkt 3.8)",
       "rectPt": {
         "llx": 475.46,
         "lly": 190.96,
@@ -5727,6 +5933,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "4.22 Koncernbidragsspärrat och fusionsspärrat, underskott m.m. (frivillig uppgift)",
       "rectPt": {
         "llx": 475.46,
         "lly": 166.96,
@@ -5762,6 +5969,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa Ja om Uppdragstagare (t.ex. redovisningskonsult) har biträtt vid upprättandet av årsredovisningen",
       "rectPt": {
         "llx": 302.3,
         "lly": 101.17,
@@ -5793,6 +6001,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa Nej om Uppdragstagare (t.ex. redovisningskonsult) inte har biträtt vid upprättandet av årsredovisningen",
       "rectPt": {
         "llx": 429.06,
         "lly": 101.17,
@@ -5824,6 +6033,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa Ja om Årsredovisningen har varit föremål för revision",
       "rectPt": {
         "llx": 302.3,
         "lly": 71.5,
@@ -5855,6 +6065,7 @@
       "rotate": null,
       "access": null,
       "font": "/ZaDb 10.40 Tf 0 g",
+      "screenReaderText": "Kryssa Nej om Årsredovisningen inte har varit föremål för revision ",
       "rectPt": {
         "llx": 429.06,
         "lly": 71.5,

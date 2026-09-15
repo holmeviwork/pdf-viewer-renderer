@@ -1,7 +1,7 @@
 {
   "source": "assets/2102_19_web_2025.pdf",
   "file": "2102_19_web_2025.pdf",
-  "generatedAt": "2026-09-11T19:37:25.964Z",
+  "generatedAt": "2026-09-15T09:43:42.575Z",
   "document": {
     "creatorTool": "Designer 6.5",
     "producer": "Adobe Experience Manager forms PDF forms",
@@ -15,28 +15,62 @@
     "issued": "2025-05-14",
     "creator": "Skatteverket",
     "title": "Uppskov Bostad K2 SKV 2102",
-    "templateVersionRef": "19_01 (/template/subform[1])"
+    "templateVersionRef": "19_01 (/template/subform[1])",
+    "rubrik1": "Uppskov - bostad",
+    "rubrik2": "Slutligt/återföring/överföring/uppgift",
+    "myndighet": "SKV",
+    "formularid": "2102",
+    "utgava": "19",
+    "formularversion": "01",
+    "konstruktionsdatum": "2025-05-14"
+  },
+  "xlsFileReferences": {
+    "source_metadata": {
+      "myndighet": "SKV",
+      "formularid": "2102",
+      "utgava": "19",
+      "formularversion": "01",
+      "konstruktionsdatum": "2025-05-14",
+      "year_yy": "25",
+      "month_mm": "05"
+    },
+    "base_string": "SKV2102-19-01-25-05",
+    "pattern": "{section}_{myndighet}{formularid}-{utgava}-{formularversion}-{yy}-{mm}.xls",
+    "files": [
+      {
+        "section": "K2",
+        "filename": "K2_SKV2102-19-01-25-05.xls"
+      }
+    ]
   },
   "pages": [
     {
       "index": 0,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida1",
+      "hiddenPageBarcode": null
     },
     {
       "index": 1,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": "Sida2",
+      "hiddenPageBarcode": "K2M-2-19-2025P4"
     },
     {
       "index": 2,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     },
     {
       "index": 3,
       "width": 595.28,
-      "height": 841.89
+      "height": 841.89,
+      "xfaSubform": null,
+      "hiddenPageBarcode": null
     }
   ],
   "fields": [
@@ -56,6 +90,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv datum när blanketten fylls i. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 431.54,
         "lly": 749.29,
@@ -91,6 +126,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv personnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror.",
       "rectPt": {
         "llx": 430.96,
         "lly": 653.96,
@@ -126,6 +162,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Namn",
       "rectPt": {
         "llx": 42.16,
         "lly": 653.96,
@@ -161,6 +198,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Fastighetsbeteckning eller bostadsrättsföreningens namn",
       "rectPt": {
         "llx": 42.15,
         "lly": 578.79,
@@ -196,6 +234,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens organisationsnummer",
       "rectPt": {
         "llx": 42.15,
         "lly": 554.79,
@@ -231,6 +270,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lägenhetsbeteckning hos bostadsrättsföreningen",
       "rectPt": {
         "llx": 301.35,
         "lly": 554.79,
@@ -266,6 +306,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Här anger du fastighetsbeteckningen om din nya bostad är ett småhus eller ägarlägenhet eller en motsvarighet utomlands inom EES.",
       "rectPt": {
         "llx": 42.15,
         "lly": 500.04,
@@ -301,6 +342,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din nya bostads inköpsdatum enligt köpekontrakt. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 301.35,
         "lly": 500.04,
@@ -336,6 +378,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange datum för bosättning i den nya bostaden. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 500.04,
@@ -371,6 +414,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange summan av inköpspris, lagfartskostnader med mera på den nya bostaden",
       "rectPt": {
         "llx": 315.75,
         "lly": 473.11,
@@ -406,6 +450,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din ägarandel i procent",
       "rectPt": {
         "llx": 430.95,
         "lly": 473.11,
@@ -441,6 +486,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange summan för eventuellt nybyggnad , tillbyggnad eller ombyggnad",
       "rectPt": {
         "llx": 315.75,
         "lly": 446.18,
@@ -476,6 +522,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange totalt inköpspris",
       "rectPt": {
         "llx": 315.75,
         "lly": 419.25,
@@ -511,6 +558,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens eller den utländska motsvarighetens namn",
       "rectPt": {
         "llx": 42.15,
         "lly": 368.29,
@@ -546,6 +594,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Svenskt organisationsnummer",
       "rectPt": {
         "llx": 430.78,
         "lly": 368.29,
@@ -581,6 +630,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Här anger du lägenhetsbeteckningen hos bostadsrättsföreningen, om din nya bostad är en bostadsrätt eller motsvarande utomlands inom EES.",
       "rectPt": {
         "llx": 42.15,
         "lly": 341.36,
@@ -616,6 +666,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din nya bostads inköpsdatum enligt köpekontrakt. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 301.35,
         "lly": 341.36,
@@ -651,6 +702,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange datum för bosättning i den nya bostaden. Välj ett datum i kalendern eller skriv datum med åtta siffror, det vill säga år fyra siffror, månad två siffror och dag två siffror.",
       "rectPt": {
         "llx": 430.95,
         "lly": 341.36,
@@ -686,6 +738,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inköpspriset minus eventuell inre reparationsfond för den nya bostaden",
       "rectPt": {
         "llx": 315.75,
         "lly": 314.43,
@@ -721,6 +774,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Din ägarandel i procent",
       "rectPt": {
         "llx": 430.95,
         "lly": 314.43,
@@ -756,6 +810,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange vad boendeformen kallas i det land där bostaden finns",
       "rectPt": {
         "llx": 42.15,
         "lly": 262.61,
@@ -778,7 +833,7 @@
     {
       "name": "BlankettTaxFormular[0].Sida1[0].SubAA[0].SubD[0].SubBlockD[0].SubDTypBostad[0].TxtLand[0]",
       "page": 0,
-      "description": "Ange landskod, med två bokstäver: &#xD;Belgien, BE&#xD;Bulgarien, BG&#xD;Cypern, CY&#xD;Danmark, DK&#xD;Estland, EE&#xD;Finland, FI&#xD;Frankrike, FR&#xD;Grekland, GR&#xD;Irland, IE&#xD;Island, IS&#xD;Italien, IT&#xD;Kroatien, HR&#xD;Lettland, LV&#xD;Liechtenstein, LI&#xD;Litauen, LT&#xD;Luxemburg, LU&#xD;Malta, MT&#xD;Nederländerna, NL&#xD;Norge, NO&#xD;Polen, PL&#xD;Portugal, PT&#xD;Rumänien, RO&#xD;Slovakien, SK&#xD;Slovenien, SI&#xD;Spanien, ES&#xD;Tjeckien, CZ&#xD;Tyskland, DE&#xD;Ungern, HU&#xD;Österrike, AT",
+      "description": "Ange landskod, med två bokstäver: \rBelgien, BE\rBulgarien, BG\rCypern, CY\rDanmark, DK\rEstland, EE\rFinland, FI\rFrankrike, FR\rGrekland, GR\rIrland, IE\rIsland, IS\rItalien, IT\rKroatien, HR\rLettland, LV\rLiechtenstein, LI\rLitauen, LT\rLuxemburg, LU\rMalta, MT\rNederländerna, NL\rNorge, NO\rPolen, PL\rPortugal, PT\rRumänien, RO\rSlovakien, SK\rSlovenien, SI\rSpanien, ES\rTjeckien, CZ\rTyskland, DE\rUngern, HU\rÖsterrike, AT",
       "ruta": null,
       "picture": null,
       "valueType": "text",
@@ -791,6 +846,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Ange landskod, med två bokstäver: \rBelgien, BE\rBulgarien, BG\rCypern, CY\rDanmark, DK\rEstland, EE\rFinland, FI\rFrankrike, FR\rGrekland, GR\rIrland, IE\rIsland, IS\rItalien, IT\rKroatien, HR\rLettland, LV\rLiechtenstein, LI\rLitauen, LT\rLuxemburg, LU\rMalta, MT\rNederländerna, NL\rNorge, NO\rPolen, PL\rPortugal, PT\rRumänien, RO\rSlovakien, SK\rSlovenien, SI\rSpanien, ES\rTjeckien, CZ\rTyskland, DE\rUngern, HU\rÖsterrike, AT",
       "rectPt": {
         "llx": 430.95,
         "lly": 262.61,
@@ -853,6 +909,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadens gatuadress",
       "rectPt": {
         "llx": 42.15,
         "lly": 235.68,
@@ -888,6 +945,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadens postadress",
       "rectPt": {
         "llx": 42.15,
         "lly": 208.75,
@@ -923,6 +981,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Vinsten från förra årets eller tidigare års deklaration",
       "rectPt": {
         "llx": 47.82,
         "lly": 142.2,
@@ -958,6 +1017,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ange inköpspris från B punkt 4 eller C punkt 2",
       "rectPt": {
         "llx": 174.81,
         "lly": 142.2,
@@ -993,6 +1053,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Försäljningspris minus försäljningsutgifter",
       "rectPt": {
         "llx": 90.34,
         "lly": 119.47,
@@ -1028,6 +1089,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Uppskovsbelopp efter beräkningen om din nya bostad är billigare än den sålda.",
       "rectPt": {
         "llx": 311.67,
         "lly": 108.18,
@@ -1063,6 +1125,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Skriv personnummer med tolv siffror, det vill säga år fyra siffror, månad två siffror, dag två siffror och kontrollnummer fyra siffror.",
       "rectPt": {
         "llx": 432.99,
         "lly": 790.97,
@@ -1098,6 +1161,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för preliminärt uppskovsbelopp från förra årets eller tidigare års deklaration",
       "rectPt": {
         "llx": 315.55,
         "lly": 742.94,
@@ -1133,6 +1197,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för preliminärt uppskovsbelopp från förra årets eller tidigare års deklaration   ",
       "rectPt": {
         "llx": 315.49,
         "lly": 694.93,
@@ -1168,6 +1233,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för slutligt uppskovsbelopp",
       "rectPt": {
         "llx": 315.49,
         "lly": 671.33,
@@ -1203,6 +1269,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för uppskovsbelopp som ska återföras till beskattning",
       "rectPt": {
         "llx": 315.49,
         "lly": 647.33,
@@ -1238,6 +1305,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Fastighetsbeteckning eller bostadsrättsförenings namn",
       "rectPt": {
         "llx": 41.95,
         "lly": 544.67,
@@ -1273,6 +1341,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens organisationsnummer",
       "rectPt": {
         "llx": 41.95,
         "lly": 520.66,
@@ -1308,6 +1377,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lägenhetsbeteckning hos bostadsrättsföreningen",
       "rectPt": {
         "llx": 301.15,
         "lly": 520.66,
@@ -1343,6 +1413,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för kvarvarande uppskovsbelopp",
       "rectPt": {
         "llx": 315.55,
         "lly": 496.66,
@@ -1378,6 +1449,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för uppskovsbelopp som återförs till beskattning",
       "rectPt": {
         "llx": 315.55,
         "lly": 472.66,
@@ -1413,6 +1485,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för återstående uppskovsbelopp",
       "rectPt": {
         "llx": 315.55,
         "lly": 448.65,
@@ -1448,6 +1521,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 10.00 Tf 0 g",
+      "screenReaderText": "Fastighetsbeteckning eller bostadsrättsföreningens namn ",
       "rectPt": {
         "llx": 41.95,
         "lly": 376.64,
@@ -1483,6 +1557,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Bostadsrättsföreningens organisationsnummer",
       "rectPt": {
         "llx": 41.95,
         "lly": 352.64,
@@ -1518,6 +1593,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Lägenhetsbeteckning hos bostadsrättsföreningen",
       "rectPt": {
         "llx": 301.15,
         "lly": 352.64,
@@ -1553,6 +1629,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Beloppsfält för hela det kvarvarande uppskovsbelopp som ska föras över till en ny eller flera nya ägare",
       "rectPt": {
         "llx": 444.7,
         "lly": 328.64,
@@ -1588,6 +1665,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares personnummer ",
       "rectPt": {
         "llx": 41.95,
         "lly": 283.28,
@@ -1623,6 +1701,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares namn och adress ",
       "rectPt": {
         "llx": 158.17,
         "lly": 283.28,
@@ -1658,6 +1737,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Andel av slutligt uppskovsbelopp som ska överföras till ny ägare av ersättningsbostaden, andelen anges i procent ",
       "rectPt": {
         "llx": 444.7,
         "lly": 283.28,
@@ -1693,6 +1773,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares personnummer ",
       "rectPt": {
         "llx": 41.95,
         "lly": 259.28,
@@ -1728,6 +1809,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares namn och adress ",
       "rectPt": {
         "llx": 158.17,
         "lly": 259.28,
@@ -1763,6 +1845,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Andel av slutligt uppskovsbelopp som ska överföras till ny ägare av ersättningsbostaden, andelen anges i procent ",
       "rectPt": {
         "llx": 444.7,
         "lly": 259.28,
@@ -1798,6 +1881,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares personnummer ",
       "rectPt": {
         "llx": 41.95,
         "lly": 235.28,
@@ -1833,6 +1917,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares namn och adress ",
       "rectPt": {
         "llx": 158.17,
         "lly": 235.28,
@@ -1868,6 +1953,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Andel av slutligt uppskovsbelopp som ska överföras till ny ägare av ersättningsbostaden, andelen anges i procent ",
       "rectPt": {
         "llx": 444.7,
         "lly": 235.28,
@@ -1903,6 +1989,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares personnummer ",
       "rectPt": {
         "llx": 41.95,
         "lly": 211.27,
@@ -1938,6 +2025,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Ny ägares namn och adress ",
       "rectPt": {
         "llx": 158.17,
         "lly": 211.27,
@@ -1973,6 +2061,7 @@
       "rotate": null,
       "access": null,
       "font": "/CourierNewPS-BoldMT 11.00 Tf 0 g",
+      "screenReaderText": "Andel av slutligt uppskovsbelopp som ska överföras till ny ägare av ersättningsbostaden, andelen anges i procent ",
       "rectPt": {
         "llx": 444.7,
         "lly": 211.27,
@@ -2008,6 +2097,7 @@
       "rotate": null,
       "access": null,
       "font": null,
+      "screenReaderText": null,
       "rectPt": {
         "llx": 41.95,
         "lly": 139.17,

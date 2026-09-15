@@ -7,11 +7,7 @@
 // holds the original values from the actual PDF authoring tool.
 
 const { PDFName, decodePDFRawStream } = require('pdf-lib');
-
-const XML_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
-function decodeXmlEntities(str) {
-  return str.replace(/&(amp|lt|gt|quot|apos);/g, (_, name) => XML_ENTITIES[name]);
-}
+const { decodeXmlEntities } = require('./xml-entities');
 
 function simpleTag(xml, tag) {
   const match = xml.match(new RegExp(`<${tag}[^>]*>([^<]*)<\\/${tag}`));

@@ -16,6 +16,25 @@ const fieldInfoTitle = document.getElementById('field-info-title');
 const fieldInfoContent = document.getElementById('field-info-content');
 
 let currentSchema = null;
+let activeFieldEl = null; // the field the sidebar is currently showing, if any
+
+// Which field's data the sidebar shows is tracked as our own JS state
+// (the `.active` class + activeFieldEl) rather than driven by native
+// focus/blur: clicking into the sidebar to select/copy text blurs the
+// input (mousedown on any non-focusable element blurs whatever currently
+// has focus), and blur only fires once per focus/blur transition - if we
+// reacted to that blur, the field would be stuck "stale" afterward with
+// no further blur event ever left to fire. Instead, a single
+// document-level mousedown listener decides when to revert to the
+// general-info view: anywhere that isn't the sidebar and isn't a field
+// counts as a real "click away".
+document.addEventListener('mousedown', (event) => {
+  if (!activeFieldEl) return;
+  if (event.target.closest('#field-info') || event.target.closest('.field')) return;
+  activeFieldEl.classList.remove('active');
+  activeFieldEl = null;
+  showGeneralInfo();
+});
 
 async function main() {
   const manifest = await fetch('/schemas/index.json').then((r) => r.json());
@@ -53,6 +72,7 @@ function setFormParam(schemaFile) {
 async function loadSchema(schemaFile) {
   pagesEl.innerHTML = '';
   statusEl.textContent = 'Loading…';
+  activeFieldEl = null;
 
   const schema = await fetch(`/schemas/${schemaFile}`).then((r) => r.json());
   currentSchema = schema;
@@ -100,7 +120,9 @@ async function loadSchema(schemaFile) {
     const scaleY = viewport.height / pageInfo.height;
 
     for (const field of fieldsByPage.get(pageInfo.index) || []) {
-      pageEl.appendChild(createFieldElement(field, scaleX, scaleY));
+      for (const el of createFieldElement(field, scaleX, scaleY)) {
+        pageEl.appendChild(el);
+      }
     }
 
     pagesEl.appendChild(pageEl);
@@ -145,15 +167,23 @@ const SANITIZERS = {
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
+// The field's own short name, e.g. "numBelopp[0]" - the last segment of
+// its fully-qualified, dot-separated AcroForm name (e.g.
+// "BlankettExternFormular[0].Sida1[0]....numBelopp[0]").
+function shortNameOf(fullName) {
+  return fullName.split('.').pop();
+}
+
 // Every piece of data extracted from the PDF for one field, as
 // label/value pairs, in display order. Anything null/undefined/empty is
 // left out so the panel only shows what's actually known.
 function describeField(field) {
   const box = field.box || (field.boxes && field.boxes[0]);
   const pairs = [
-    ['Description', field.description],
+    ['Description (screen reader text)', field.description],
     ['Ruta', field.ruta],
-    ['Field name', field.name],
+    ['Field name', shortNameOf(field.name)],
+    ['Fully qualified name', field.name],
     ['Type', field.type],
     ['Data type', field.dataType],
     ['Value type', field.valueType],
@@ -209,6 +239,8 @@ function showGeneralInfo() {
   fieldInfoTitle.textContent = currentSchema.file;
   renderPairs([
     ['Title', doc.title],
+    ['Rubrik 1', doc.rubrik1],
+    ['Rubrik 2', doc.rubrik2],
     ['Creator', doc.creator],
     ['Creator tool', doc.creatorTool],
     ['Producer', doc.producer],
@@ -218,6 +250,11 @@ function showGeneralInfo() {
     ['Issued', doc.issued],
     ['Metadata date', doc.metadataDate],
     ['Template version', doc.templateVersionRef],
+    ['Myndighet', doc.myndighet],
+    ['Formulär-ID', doc.formularid],
+    ['Utgåva', doc.utgava],
+    ['Formulärversion', doc.formularversion],
+    ['Konstruktionsdatum (design date)', doc.konstruktionsdatum],
     ['Source', currentSchema.source],
     ['Pages', currentSchema.pages.length],
     ['Fields', currentSchema.fields.length],
@@ -225,7 +262,68 @@ function showGeneralInfo() {
   ]);
 }
 
+// Positions, styles, and wires up the focus->sidebar behavior for one
+// on-page box - shared by every field type so that logic only lives once.
+function positionAndWire(el, field, box, scaleX, scaleY) {
+  el.className = 'field';
+  el.title = field.name;
+  el.style.left = `${box.left * scaleX}px`;
+  el.style.top = `${box.top * scaleY}px`;
+  el.style.width = `${box.width * scaleX}px`;
+  el.style.height = `${box.height * scaleY}px`;
+
+  el.addEventListener('focus', () => {
+    if (activeFieldEl) activeFieldEl.classList.remove('active');
+    activeFieldEl = el;
+    el.classList.add('active');
+    showFieldInfo(field);
+  });
+
+  return el;
+}
+
+// Returns an array of one or more positioned DOM elements for a field.
+// Only radio groups need more than one: they have a separate on-page
+// widget per option (field.boxes, one per field.options entry), so each
+// gets its own <input type="radio">, all sharing `name` so the browser
+// enforces "exactly one selected" the same way the PDF does.
 function createFieldElement(field, scaleX, scaleY) {
+  if (field.type === 'radio') {
+    const boxes = field.boxes || (field.box ? [field.box] : []);
+    return boxes.map((box, i) => {
+      const el = document.createElement('input');
+      el.type = 'radio';
+      el.name = field.name;
+      el.value = field.options?.[i] ?? String(i);
+      el.checked = field.selected != null && el.value === field.selected;
+
+      // PDF radio groups (unlike native HTML ones) can be cleared back to
+      // "no answer" by clicking the already-selected option again. Capture
+      // the checked state on mousedown (before the browser's own click
+      // handling would flip it) so the click handler can tell "was this
+      // one already selected?" and, if so, cancel the browser's default
+      // re-select and uncheck it instead.
+      el.addEventListener('mousedown', () => {
+        el.dataset.wasChecked = el.checked ? '1' : '';
+      });
+      el.addEventListener('click', (event) => {
+        if (el.dataset.wasChecked) {
+          event.preventDefault();
+          // Canceling a radio's click makes the browser revert `checked`
+          // back to its pre-click value (per spec "canceled activation
+          // steps") right after this handler returns - which is `true`
+          // here, clobbering a same-tick assignment. Deferring past that
+          // makes the uncheck actually stick.
+          setTimeout(() => {
+            el.checked = false;
+          }, 0);
+        }
+      });
+
+      return positionAndWire(el, field, box, scaleX, scaleY);
+    });
+  }
+
   const box = field.box || (field.boxes && field.boxes[0]);
   let el;
 
@@ -267,17 +365,7 @@ function createFieldElement(field, scaleX, scaleY) {
     el.style.textAlign = field.align || 'left';
   }
 
-  el.className = 'field';
-  el.title = field.name;
-  el.style.left = `${box.left * scaleX}px`;
-  el.style.top = `${box.top * scaleY}px`;
-  el.style.width = `${box.width * scaleX}px`;
-  el.style.height = `${box.height * scaleY}px`;
-
-  el.addEventListener('focus', () => showFieldInfo(field));
-  el.addEventListener('blur', showGeneralInfo);
-
-  return el;
+  return [positionAndWire(el, field, box, scaleX, scaleY)];
 }
 
 main().catch((err) => {
